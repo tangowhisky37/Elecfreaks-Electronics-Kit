@@ -133,6 +133,7 @@ pages:
     - How to Use Bluetooth(IOS System): How_to_Use_Bluetooth_IOS_System.md
     - troubleshooting downloads with webusb: troubleshooting_downloads_with_webusb.md
     - ring:bit car v2 accelerometer arithmetic: ring_bit_car_v2_accelerometer_arithmetic.md
+    - iot:bit: how_to_use_thinkspeak.md
   - micro:bit Kits:
     - micro:bit Watch Kit:
       - Introduction: watch_kit.md
@@ -278,12 +279,19 @@ pages:
       - mbot Introduction(robit): robit.md
       - robit Smart Car kit case01:ultrasonic measurement: robit_smart_car_case_01.md
       - robit Smart Car kit case02:line follow: robit_smart_car_case_02.md
+    - iot:bit kit:
+      - iot:bit case01: IOT_bit_case01.md
+      - iot:bit case02: IOT_bit_case02.md
+      - iot:bit case03: IOT_bit_case03.md
+      - iot:bit case04: IOT_bit_case04.md
+      - iot:bit case05: IOT_bit_case05.md
       
 
   - micro:bit Modules and Sensor:
     - sensor:bit: sensor_bit.md
     - motor:bit v14: motor_bit_v14.md
     - joystick:bit v2: joystick_bit_v2.md
+    - iot:bit: iotbit.md
     - mbot Introduction(robit): 
       - robit Introduction: robit.md
       - Case 01 Ultrasonic Distance Measurement: robit_case_01.md
