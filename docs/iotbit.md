@@ -1,7 +1,7 @@
 # Introduction
 ---
 
-- IOT:bit is an expansion board based on IoT for micro:bit. It uses ESP8266 as WIFI expansion board and serial port to communicate with micro:bit. It also has extended all available IO port of the micro:bit which is leaded by GVS and you can extent various 3V E-blocks as LED, photosensitive and servo by using it. At the same time, the IOT:bit with an on-board buzzer for outside sound and an on-board RTC clock for timing without power supply. Let's creating your own IoT by makecode!
+- IoT:bit is an expansion board based on IoT for micro:bit. It uses ESP8266 as WIFI expansion board and serial port to communicate with micro:bit. It also has extended all available IO port of the micro:bit which is leaded by GVS and you can extent various 3V E-blocks as LED, photosensitive and servo by using it. At the same time, the IOT:bit with an on-board buzzer for outside sound and an on-board RTC clock for timing without power supply. Let's creating your own IoT by makecode!
 
  ![](https://i.imgur.com/NGKCsKq.jpg)
 
@@ -146,7 +146,7 @@ Note：If you get a warning telling you some packages will be removed because of
 
 - There is on-board DS1307RTC timing on the IOT:bit as below picture. RTC timing need a CR1220 button cell for lasting power supply. We need the RTC timing keep accuracy in the event of a power outage. 
 
- ![](https://i.imgur.com/o7dOYPL.jpg)
+ ![](https://i.imgur.com/Y76pQRh.jpg) ![](https://i.imgur.com/ivqmwe3.png)
 
 ---
 
@@ -164,7 +164,7 @@ Note：If you get a warning telling you some packages will be removed because of
 - The most important function of IOT:bit is WIKI. The onboard `ESP-12F`WIFI module can connect WIFI and send information. To use port for communication with the micro:bit and the pin `RX-P8`，`TX-P12` is special for IoT.
 - Using thingspeak as cloud to coding and data uploding.[thingspeak平台使用指南]()
 
- ![](https://i.imgur.com/xKJ7iFC.jpg)
+ ![](https://i.imgur.com/CbzmpB1.jpg) ![](https://i.imgur.com/fLnI2rl.png)
 
 - On start, initialize ESP8266 to default connection with P8 & P12.
 - Connect your own WiFi, input the key and the password.
