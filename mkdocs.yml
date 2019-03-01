@@ -282,11 +282,11 @@ pages:
     - Smart Science IoT Kit:
       - iot:kit: iotbit.md
       - iot:bit: iotbit.md
-      - iot:bit case01: IOT_bit_case01.md
-      - iot:bit case02: IOT_bit_case02.md
-      - iot:bit case03: IOT_bit_case03.md
-      - iot:bit case04: IOT_bit_case04.md
-      - iot:bit case05: IOT_bit_case05.md
+      - iot:kit case01: IOT_bit_case01.md
+      - iot:kit case02: IOT_bit_case02.md
+      - iot:kit case03: IOT_bit_case03.md
+      - iot:kit case04: IOT_bit_case04.md
+      - iot:kit case05: IOT_bit_case05.md
 
   - micro:bit Modules and Sensor:
     - sensor:bit: sensor_bit.md
