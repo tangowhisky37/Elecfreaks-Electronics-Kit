@@ -256,6 +256,7 @@ pages:
       - Ring:bit Car Assembly Step: ring_bit_car_v2_assembly_step.md
       - Ring:bit Introduction: ring_bit_v2.md
       - Ring:bit Introduction of E-blocks: ring_bit_car_v2_extensions.md
+      - line flow module: ring_bit_car_v2_line_flow_module.md
       - Case 01 Full speed ahead: ring_bit_car_v2_case_01.md
       - Case 02 Make a shape: ring_bit_car_v2_case_02.md
       - Case 03 Turn at an angle: ring_bit_car_v2_case_03.md
