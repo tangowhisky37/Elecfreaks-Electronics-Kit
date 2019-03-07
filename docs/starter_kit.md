@@ -1,30 +1,31 @@
-## micro:bit Starter Kit Introduction
-
-ELECFREAKS micro:bit Starter Kit is tailor-designed for micro:bit experiment and programming  beginners.
-
-Abundant electronic components to help you start, including buzzer, trimpot, LED, servos, etc..
-
-With all of the components, we offer 13 courses to enable users to master the principles of electronic circuits, components, and basic programming.
-
-Help you to lay a good foundation for more complicated STEAM study.
-
-
-
-
-## Documents
+## Introduction
 ---
-- [Breadboard:bit Introduction](/breadboard_bit/)
-- [Micro_bit_Starter_Kit_Lesson_01_LED](/starter_kit_case_01/)  
-- [Micro_bit_Starter_Kit_Lesson_02_Button](/starter_kit_case_02/)  
-- [Micro_bit_Starter_Kit_Lesson_03_Trimpot](/starter_kit_case_03/)  
-- [Micro_bit_Starter_Kit_Lesson_04_Photocell](/starter_kit_case_04/)  
-- [Micro_bit_Starter_Kit_Lesson_05_RGB_LED](/starter_kit_case_05/)  
-- [Micro_bit_Starter_Kit_Lesson_06_Self_lock_Switch](/starter_kit_case_06/)  
-- [Micro_bit_Starter_Kit_Lesson_07_Temperature_Sensor](/starter_kit_case_07/)  
-- [Micro_bit_Starter_Kit_Lesson_08_Servo](/starter_kit_case_08/)  
-- [Micro_bit_Starter_Kit_Lesson_09_Buzzer](/starter_kit_case_09/)  
-- [Micro_bit_Starter_Kit_Lesson_10_Motor](/starter_kit_case_10/)  
-- [Micro_bit_Starter_Kit_Lesson_11_Rainbow_LED](/starter_kit_case_11/)  
-- [Micro_bit_Starter_Kit_Lesson_12_Accelerometer](/starter_kit_case_12/)  
-- [Micro_bit_Starter_Kit_Lesson_13_Compass](/starter_kit_case_13/)  
-- [Micro_bit_Starter_Kit_Lesson_14_Ambient_Light](/starter_kit_case_14/)  
+ElecFreaks Micro:bit Starter Kit is designed for people who is at the door step of learning electric circuit and programming knowledge. 
+The kit has provided some basic electronic components like LED, button, buzzer, temperature sensor, steering engine and motor etc.. 
+Micro:bit Starter kit can help you enter a wonderful of electronic world.
+
+![](https://i.imgur.com/XpixeEF.jpg)
+
+## Components
+---
+![](https://i.imgur.com/NJPB9qt.jpg)
+
+## Relative Readings:
+---
+- [Breadboard:bit](/breadboard_bit/)
+- [Lesson_01：LED](/starter_kit_case_01/)
+- [Lesson_02：Button](/starter_kit_case_02/)  
+- [Lesson_03：Trimpot](/starter_kit_case_03/)  
+- [Lesson_04：Photocell](/starter_kit_case_04/) 
+- [Lesson_05：RGB LED](/starter_kit_case_05/) 
+- [Lesson_06：Self-lock Switch](/starter_kit_case_06/) 
+- [Lesson_07：Temperature Sensor](/starter_kit_case_07/) 
+- [Lesson_08：Servo](/starter_kit_case_08/) 
+- [Lesson_09：Buzzer](/starter_kit_case_09/) 
+- [Lesson_10：Motor](/starter_kit_case_10/) 
+- [Lesson_11：Rainbow LED](/starter_kit_case_11/) 
+- [Lesson_12：Accelerometer](/starter_kit_case_12/) 
+- [Lesson_13：Compass](/starter_kit_case_13/) 
+- [Lesson_14：Ambient Light](/starter_kit_case_14/) 
+
+## FAQ
