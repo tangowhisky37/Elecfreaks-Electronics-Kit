@@ -128,31 +128,31 @@ pages:
       - Telegraph: classroom_case_32.md
       - Railway Crossing: classroom_case_33.md
       - Karel: classroom_case_34.md
+	  
   - micro:bit relevant materials:
     - Edge Connector Data Sheet: Edge_Connector_Data_Sheet.md
     - How to Use Bluetooth(IOS System): How_to_Use_Bluetooth_IOS_System.md
     - troubleshooting downloads with webusb: troubleshooting_downloads_with_webusb.md
     - ring:bit car v2 accelerometer arithmetic: ring_bit_car_v2_accelerometer_arithmetic.md
     - How to use thinkspeak: how_to_use_thinkspeak.md
+	
   - micro:bit Kits:
     - micro:bit Watch Kit:
       - Introduction: watch_kit.md
       - Power:bit Introduction: power_bit.md
-      - Case 01：Compass: watch_kit_case_01.md
-      - Case 02：Dice: watch_kit_case_02.md
-      - Case 03：Thermometer: watch_kit_case_03.md
-      - Case 04：Timer: watch_kit_case_04.md
-      - Case 05：Flashlight: watch_kit_case_05.md   
+      - case 01：Compass: watch_kit_case_01.md
+      - case 02：Dice: watch_kit_case_02.md
+      - case 03：Thermometer: watch_kit_case_03.md
+      - case 04：Timer: watch_kit_case_04.md
+      - case 05：Flashlight: watch_kit_case_05.md   
     - micro:bit Basic Kit:
       - Introduction: basic_kit.md
       - Basic:bit Introduction: basic_bit.md
-      - Case 01 Light Controller: basic_kit_case_01.md
-      - Case 02 Morse Code: basic_kit_case_02.md
-      - Case 03 Function Selector: basic_kit_case_03.md
-      - Case 04 Show Box for Stickers: basic_kit_case_04.md
-      - Case 05 Shock Box: basic_kit_case_05.md
-
-      
+      - case 01 Light Controller: basic_kit_case_01.md
+      - case 02 Morse Code: basic_kit_case_02.md
+      - case 03 Function Selector: basic_kit_case_03.md
+      - case 04 Show Box for Stickers: basic_kit_case_04.md
+      - case 05 Shock Box: basic_kit_case_05.md
 
     - micro:bit Starter Kit:
       - Introduction: starter_kit.md
@@ -171,39 +171,40 @@ pages:
       - Lesson 12 Accelerometer: starter_kit_case_12.md
       - Lesson 13 Compass: starter_kit_case_13.md
       - Lesson 14 Ambient Light: starter_kit_case_14.md
+	  
     - micro:bit Tinker Kit: 
       - Introduction: tinker_kit.md
       - Octopus:bit Introduction: octopus_bit.md
-      - Case 01 Music Machine: tinker_kit_case_01.md
-      - Case 02 Smart Light: tinker_kit_case_02.md
-      - Case 03 Electro-Theremin: tinker_kit_case_03.md
-      - Case 04 Simple Alarm Box: tinker_kit_case_04.md
-      - Case 05 Plant Monitoring Device: tinker_kit_case_05.md
-      - Case 06 Intruder Detection: tinker_kit_case_06.md
-      - Case 07 Fish Feeder: tinker_kit_case_07.md
-      - Case 08 Motion Detector: tinker_kit_case_08.md
-      - Case 09 Lie Detector: tinker_kit_case_09.md
-      - Case 10 PADDLEBALLSUPERSMASHEM: tinker_kit_case_10.md
-      - Case 11 Avoid Asteroids: tinker_kit_case_11.md
-      - Case 12 Remote Control Everything: tinker_kit_case_12.md
-      - Case 13 micro:bit Car: tinker_kit_case_13.md
-      - Case 14 Flipping Pancakes: tinker_kit_case_14.md
-      - Case 15 Maze Runner: tinker_kit_case_15.md
-      - Case 16 QUICK MATHS: tinker_kit_case_16.md
-      - Case 17 Pitch Perfect: tinker_kit_case_17.md
-      - Case 18 Finger Dexterity: tinker_kit_case_18.md
-      - Case 19 Electric Spirit Level: tinker_kit_case_19.md
-      - Case 20 Space Shooter: tinker_kit_case_20.md
-      - Case 21 Flappy Bird: tinker_kit_case_21.md
-      - Case 22 Wire Transmission: tinker_kit_case_22.md
-      - Case 23 Snake Game: tinker_kit_case_23.md
-      - Case 24 Game bit: tinker_kit_case_24.md
-      - Case 25 µ reMorse: tinker_kit_case_25.md
-      - Case 26 Coin Sorter with micro:bit: tinker_kit_case_26.md
-      - Case 27 Make a Waving Fortune Cat: tinker_kit_case_27.md
-      - Case 28 Put together the Krazy Kar v2: tinker_kit_case_28.md
-      - Case 29 Shoot Em Up Kit: tinker_kit_case_29.md
-      - Case 30 Reaction Time Tester: tinker_kit_case_30.md
+      - case 01 Music Machine: tinker_kit_case_01.md
+      - case 02 Smart Light: tinker_kit_case_02.md
+      - case 03 Electro-Theremin: tinker_kit_case_03.md
+      - case 04 Simple Alarm Box: tinker_kit_case_04.md
+      - case 05 Plant Monitoring Device: tinker_kit_case_05.md
+      - case 06 Intruder Detection: tinker_kit_case_06.md
+      - case 07 Fish Feeder: tinker_kit_case_07.md
+      - case 08 Motion Detector: tinker_kit_case_08.md
+      - case 09 Lie Detector: tinker_kit_case_09.md
+      - case 10 PADDLEBALLSUPERSMASHEM: tinker_kit_case_10.md
+      - case 11 Avoid Asteroids: tinker_kit_case_11.md
+      - case 12 Remote Control Everything: tinker_kit_case_12.md
+      - case 13 micro:bit Car: tinker_kit_case_13.md
+      - case 14 Flipping Pancakes: tinker_kit_case_14.md
+      - case 15 Maze Runner: tinker_kit_case_15.md
+      - case 16 QUICK MATHS: tinker_kit_case_16.md
+      - case 17 Pitch Perfect: tinker_kit_case_17.md
+      - case 18 Finger Dexterity: tinker_kit_case_18.md
+      - case 19 Electric Spirit Level: tinker_kit_case_19.md
+      - case 20 Space Shooter: tinker_kit_case_20.md
+      - case 21 Flappy Bird: tinker_kit_case_21.md
+      - case 22 Wire Transmission: tinker_kit_case_22.md
+      - case 23 Snake Game: tinker_kit_case_23.md
+      - case 24 Game bit: tinker_kit_case_24.md
+      - case 25 µ reMorse: tinker_kit_case_25.md
+      - case 26 Coin Sorter with micro:bit: tinker_kit_case_26.md
+      - case 27 Make a Waving Fortune Cat: tinker_kit_case_27.md
+      - case 28 Put together the Krazy Kar v2: tinker_kit_case_28.md
+      - case 29 Shoot Em Up Kit: tinker_kit_case_29.md
+      - case 30 Reaction Time Tester: tinker_kit_case_30.md
       - case 31 morse code transmitter: tinker_kit_case_31.md
       - case 32 reclusebot: tinker_kit_case_32.md
       - case 33 access denied: tinker_kit_case_33.md
@@ -213,17 +214,18 @@ pages:
     - micro:bit Smart home Kit:
       - Introduction: smart_home_kit.md
       - sensor:bit Introduction: sensor_bit.md
-      - Case 01 Voice-activated Lights: smart_home_case_01.md
-      - Case 02 Smart Fan: smart_home_case_02.md
-      - Case 03 Auto Windows: smart_home_case_03.md
-      - Case 04 Smart Wardrobe: smart_home_case_04.md
-      - Case 05 Water Level Alarming: smart_home_case_05.md
+      - case 01 Voice-activated Lights: smart_home_case_01.md
+      - case 02 Smart Fan: smart_home_case_02.md
+      - case 03 Auto Windows: smart_home_case_03.md
+      - case 04 Smart Wardrobe: smart_home_case_04.md
+      - case 05 Water Level Alarming: smart_home_case_05.md
       - case 06 smart telecontrol door opener: smart_home_case_06.md
       - case 07 smart decibel tester: smart_home_case_07.md
       - case 08 simple spirometer: smart_home_case_08.md
       - case 09 lie detector: smart_home_case_09.md
       - case 10 simple alarm box: smart_home_case_10.md
       - case 11 intruder detection system: smart_home_case_11.md
+	  
     - micro:bit experiment box kit:
       - introduction: experiment_box.md
       - circuit knowledge: experiment_box_circuit_knowledge.md
@@ -240,46 +242,51 @@ pages:
       - case 11 DC motor: experiment_box_case_11.md
       - circuit design 01: experiment_box_circuit_case_01.md
       - circuit design 02: experiment_box_circuit_case_02.md
+	  
     - ring:bit Car Kit: 
       - Introduction: ring_bit_car.md
       - Ring:bit Introduction: ring_bit.md
-      - Case 01 Add Package: ring_bit_car_case_01.md
-      - Case 02 S Walk: ring_bit_car_case_02.md
-      - Case 03 Draw a Circel: ring_bit_car_case_03.md
-      - Case 04 Wireless Remote Control: ring_bit_car_case_04.md
-      - Case 05 Crazy dance: ring_bit_car_case_05.md
-      - Case 06 Turns over Detection: ring_bit_car_case_06.md
-      - Case 07 Light Follow: ring_bit_car_case_07.md
-      - Case 08 Remote Control by an accelerometer: ring_bit_car_case_08.md
+      - case 01 Add Package: ring_bit_car_case_01.md
+      - case 02 S Walk: ring_bit_car_case_02.md
+      - case 03 Draw a Circel: ring_bit_car_case_03.md
+      - case 04 Wireless Remote Control: ring_bit_car_case_04.md
+      - case 05 Crazy dance: ring_bit_car_case_05.md
+      - case 06 Turns over Detection: ring_bit_car_case_06.md
+      - case 07 Light Follow: ring_bit_car_case_07.md
+      - case 08 Remote Control by an accelerometer: ring_bit_car_case_08.md
+	  
     - ring:bit Car Kit V2: 
       - Introduction: ring_bit_car_v2.md
       - Ring:bit Car Assembly Step: ring_bit_car_v2_assembly_step.md
       - Ring:bit Introduction: ring_bit_v2.md
       - Ring:bit Introduction of E-blocks: ring_bit_car_v2_extensions.md
       - line flow module: ring_bit_car_v2_line_flow_module.md
-      - Case 01 Full speed ahead: ring_bit_car_v2_case_01.md
-      - Case 02 Make a shape: ring_bit_car_v2_case_02.md
-      - Case 03 Turn at an angle: ring_bit_car_v2_case_03.md
-      - Case 04 Here comes the police: ring_bit_car_v2_case_04.md
-      - Case_05 Crazy dance: ring_bit_car_v2_case_05.md
-      - Case_06 Remote Control: ring_bit_car_v2_case_06.md
-      - Case_07 Turns over Detection : ring_bit_car_v2_case_07.md
-      - Case_08 Light Follow: ring_bit_car_v2_case_08.md
-      - Case_09 Remote Control by an accelerometer: ring_bit_car_v2_case_09.md
+      - case 01 Full speed ahead: ring_bit_car_v2_case_01.md
+      - case 02 Make a shape: ring_bit_car_v2_case_02.md
+      - case 03 Turn at an angle: ring_bit_car_v2_case_03.md
+      - case 04 Here comes the police: ring_bit_car_v2_case_04.md
+      - case 05 Crazy dance: ring_bit_car_v2_case_05.md
+      - case 06 Remote Control: ring_bit_car_v2_case_06.md
+      - case 07 Turns over Detection : ring_bit_car_v2_case_07.md
+      - case 08 Light Follow: ring_bit_car_v2_case_08.md
+      - case 09 Remote Control by an accelerometer: ring_bit_car_v2_case_09.md
+	  
     - motor:bit Smart Car Kit: 
       - Introduction: motor_bit_smart_car.md
       - motor:bit Introduction: motor_bit_v16.md
-      - Case 01 Fixed Parking: motor_bit_smart_car_case_01.md
-      - Case 02 Keep Distance: motor_bit_smart_car_case_02.md
-      - Case 03 Line Tracking: motor_bit_smart_car_case_03.md
-      - Case 04 Avoid Barrier: motor_bit_smart_car_case_04.md
-      - Case 05 Remote Control: motor_bit_smart_car_case_05.md
-      - Case 06 Bluetooth Control: motor_bit_smart_car_case_06.md  
+      - case 01 Fixed Parking: motor_bit_smart_car_case_01.md
+      - case 02 Keep Distance: motor_bit_smart_car_case_02.md
+      - case 03 Line Tracking: motor_bit_smart_car_case_03.md
+      - case 04 Avoid Barrier: motor_bit_smart_car_case_04.md
+      - case 05 Remote Control: motor_bit_smart_car_case_05.md
+      - case 06 Bluetooth Control: motor_bit_smart_car_case_06.md  
+	  
     - robit Smart Car kit: 
       - Kit Introduction: robit_smart_car.md
       - mbot Introduction(robit): robit.md
       - robit Smart Car kit case01:ultrasonic measurement: robit_smart_car_case_01.md
       - robit Smart Car kit case02:line follow: robit_smart_car_case_02.md
+	  
     - Smart Science IoT Kit:
       - iot:kit: iotbit.md
       - iot:bit: iotbit.md
@@ -290,36 +297,80 @@ pages:
       - iot:kit case05: IOT_bit_case05.md
 
   - micro:bit Modules and Sensor:
+    - mbot Introduction(robit): 
+      - robit Introduction: robit.md
+      - case 01 Ultrasonic Distance Measurement: robit_case_01.md
+      - case 02 Ultrasonic Obstacle Avoidance: robit_case_02.md
+      - case 03 Never Fallen Car: robit_case_03.md
+      - case 04 Line Tracking: robit_case_04.md
+      - case 05 Reversing Alarm: robit_case_05.md
+      - case 06 Rainbow LED: robit_case_06.md
+      - case 07 Smart Car Light: robit_case_07.md
+      - case 08 Bluetooth remote control: robit_case_08.md
+      - case 09 Reaction test game: robit_case_09.md
     - sensor:bit: sensor_bit.md
     - motor:bit v14: motor_bit_v14.md
     - joystick:bit v2: joystick_bit_v2.md
     - iot:bit: iotbit.md
-    - mbot Introduction(robit): 
-      - robit Introduction: robit.md
-      - Case 01 Ultrasonic Distance Measurement: robit_case_01.md
-      - Case 02 Ultrasonic Obstacle Avoidance: robit_case_02.md
-      - Case 03 Never Fallen Car: robit_case_03.md
-      - Case 04 Line Tracking: robit_case_04.md
-      - Case 05 Reversing Alarm: robit_case_05.md
-      - Case 06 Rainbow LED: robit_case_06.md
-      - Case 07 Smart Car Light: robit_case_07.md
-      - Case 08 Bluetooth remote control: robit_case_08.md
-      - Case 09 Reaction test game: robit_case_09.md
     - edge:bit: edge_bit.md
     - joystick:bit: joystick_bit.md
     - Power Supply: microbit_power_supply.md
-    - sonar:bit: sonar_bit.md
-    - Analog Rotation Brick: octopus_ef04085.md
-    - 3V Relay Module: octopus_ef04086.md
-    - BME280 Air Pressure Sensor: octopus_ef04087.md
-    - 8x16 matrix module: octopus_ef03418.md
-    - Tracking Module: octopus_ef04088.md    
-    - Octopus PM2.5 module: octopus_ef04090.md    
-    - Octopus Single RGB Rainbow LED: octopus_ef04091.md
-    - 3V vertical water pump: 3V_vertical_water_pump.md
     - christmas tree rainbow led: christmas_tree_rainbow_led.md
     - snowflake buzzer: snowflake_buzzer.md      
-
+	- 3V vertical water pump: 3V_vertical_water_pump.md
+  - micro:bit Modules and Sensor:
+    - Input: 
+	  - Analog Rotation Brick: octopus_ef04085.md
+	  - OBPushButton - Blue: octopus_ef04034.md   
+      - Octopus Analog Rotation Brick OBARot: octopus_ef04041.md   
+      - Octopus Linear Slider Potentiometer Brick: octopus_ef04061.md
+      - Octopus ADKeypad: octopus_ef04017.md   
+      - Octopus Push Lock E-Switch Brick OBPLock: octopus_ef04035.md   
+	- Output:
+	  - Octopus Single RGB Rainbow LED: octopus_ef04091.md
+	  - 3V Relay Module: octopus_ef04086.md
+	  - 8x16 matrix module: octopus_ef03418.md
+      - OCTOPUS 1Channel Relay - 5V: octopus_ef04026.md   
+      - Christmas Tree Rainbow LED for micro:bit: christmas_tree_rainbow_led.md
+      - Snowflake Buzzer for micro:bit: snowflake_buzzer.md
+      - IIC OLED Module: octopus_ef03155.md
+      - Octopus Active Buzzer Brick OBAB02: octopus_ef04030.md   
+      - Octopus Passive buzzer Brick OBPB01: octopus_ef04031.md   
+      - Octopus 5mm LED Brick OBLED - Blue: octopus_ef04036.md
+      - Octopus 5mm LED Brick - Green: octopus_ef04062.md
+      - Octopus 5mm LED Brick - Red: octopus_ef04063.md
+	  - Octopus 5mm LED Brick - White: octopus_ef04065.md
+      - Octopus 5mm LED Brick - Yellow: octopus_ef04066.md
+      - Octopus Motor Brick: octopus_ef04059.md   
+      - OCTOPUS Vibration Motor: octopus_ef04074.md
+	- Sensor:
+	  - sonar:bit: sonar_bit.md
+	  - BME280 Air Pressure Sensor: octopus_ef04087.md
+	  - Octopus PM2.5 module: octopus_ef04090.md    
+      - Octopus 2 Channel Tracking Module: octopus_ef04088.md   
+      - Octopus Tilt Sensor: octopus_ef04001.md   
+      - Octopus Tilt Sensor: octopus_ef04002.md    
+      - Octopus Real-time Clock: octopus_ef04005.md   
+      - Octopus Sound Sensor: octopus_ef04008.md   
+      - Octopus Touch PAD Sensor: octopus_ef04011.md 
+      - Octopus Photo Interrupter Sensor: octopus_ef04012.md
+      - Octopus Crash Sensor Brick: octopus_ef04013.md   
+      - Octopus Vibration Sensor: octopus_ef04014.md
+      - Octopus MAX6675 Module: octopus_ef04018.md        
+      - Octopus Temperature And Humidity Sensor: octopus_ef04019.md   
+      - Octopus Rain/Steam Sensor: octopus_ef04024.md   
+      - Octopus Soil Moisture Sensor Brick: octopus_ef04027.md   
+      - Octopus Analog Photocell Brick OBPhotocell: octopus_ef04032.md   
+      - Octopus Analog Voltage Divider Brick OBVoltage: octopus_ef04039.md   
+      - Octopus DS18B20 Digital Temperature Brick: octopus_ef04042.md  
+      - Octopus PIR Sensor Brick: octopus_ef04055.md   
+      - Octopus Magnetic Switch: octopus_ef04075.md
+      - Octopus Gesture Sensor Brick: octopus_ef04078.md
+      - Octopus Temperature Sensor Brick TMP36 : octopus_ef04079.md
+      - Octopus Analog Noise Sound Sensor Detection Module: octopus_ef04081.md
+      - Octopus Wind Speed Sensor Anemometer Three Aluminium Cups: octopus_ef04083.md
+      - Octopus Analog Photocell Brick Adjustable Sensitivity: octopus_ef10044.md
+      - Octopus Dust Sensor Detector Module with Sharp GP2Y1010AU0F: octopus_ef11083.md
 
 # Google Analytics
 #google_analytics:
