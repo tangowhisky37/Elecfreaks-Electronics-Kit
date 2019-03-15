@@ -317,19 +317,19 @@ pages:
     - Power Supply: microbit_power_supply.md
     - christmas tree rainbow led: christmas_tree_rainbow_led.md
     - snowflake buzzer: snowflake_buzzer.md      
-	- 3V vertical water pump: 3V_vertical_water_pump.md
+    - 3V vertical water pump: 3V_vertical_water_pump.md
   - micro:bit Modules and Sensor:
     - Input: 
-	  - Analog Rotation Brick: octopus_ef04085.md
-	  - OBPushButton - Blue: octopus_ef04034.md   
+      - Analog Rotation Brick: octopus_ef04085.md
+      - OBPushButton - Blue: octopus_ef04034.md   
       - Octopus Analog Rotation Brick OBARot: octopus_ef04041.md   
       - Octopus Linear Slider Potentiometer Brick: octopus_ef04061.md
       - Octopus ADKeypad: octopus_ef04017.md   
       - Octopus Push Lock E-Switch Brick OBPLock: octopus_ef04035.md   
-	- Output:
-	  - Octopus Single RGB Rainbow LED: octopus_ef04091.md
-	  - 3V Relay Module: octopus_ef04086.md
-	  - 8x16 matrix module: octopus_ef03418.md
+    - Output:
+      - Octopus Single RGB Rainbow LED: octopus_ef04091.md
+      - 3V Relay Module: octopus_ef04086.md
+      - 8x16 matrix module: octopus_ef03418.md
       - OCTOPUS 1Channel Relay - 5V: octopus_ef04026.md   
       - Christmas Tree Rainbow LED for micro:bit: christmas_tree_rainbow_led.md
       - Snowflake Buzzer for micro:bit: snowflake_buzzer.md
@@ -339,14 +339,14 @@ pages:
       - Octopus 5mm LED Brick OBLED - Blue: octopus_ef04036.md
       - Octopus 5mm LED Brick - Green: octopus_ef04062.md
       - Octopus 5mm LED Brick - Red: octopus_ef04063.md
-	  - Octopus 5mm LED Brick - White: octopus_ef04065.md
+      - Octopus 5mm LED Brick - White: octopus_ef04065.md
       - Octopus 5mm LED Brick - Yellow: octopus_ef04066.md
       - Octopus Motor Brick: octopus_ef04059.md   
       - OCTOPUS Vibration Motor: octopus_ef04074.md
-	- Sensor:
-	  - sonar:bit: sonar_bit.md
-	  - BME280 Air Pressure Sensor: octopus_ef04087.md
-	  - Octopus PM2.5 module: octopus_ef04090.md    
+    - Sensor:
+      - sonar:bit: sonar_bit.md
+      - BME280 Air Pressure Sensor: octopus_ef04087.md
+      - Octopus PM2.5 module: octopus_ef04090.md    
       - Octopus 2 Channel Tracking Module: octopus_ef04088.md   
       - Octopus Tilt Sensor: octopus_ef04001.md   
       - Octopus Tilt Sensor: octopus_ef04002.md    
