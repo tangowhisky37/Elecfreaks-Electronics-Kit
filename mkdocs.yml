@@ -296,7 +296,7 @@ pages:
       - iot:kit case04: IOT_bit_case04.md
       - iot:kit case05: IOT_bit_case05.md
 
-  - micro:bit Modules and Sensor:
+  - micro:bit Modules:
     - mbot Introduction(robit): 
       - robit Introduction: robit.md
       - case 01 Ultrasonic Distance Measurement: robit_case_01.md
@@ -319,7 +319,7 @@ pages:
     - snowflake buzzer: snowflake_buzzer.md      
     - 3V vertical water pump: 3V_vertical_water_pump.md
 
-  - micro:bit Modules and Sensor:
+  - micro:bit Octopus:
     - Input: 
       - Analog Rotation Brick: octopus_ef04085.md
       - OBPushButton - Blue: octopus_ef04034.md   
