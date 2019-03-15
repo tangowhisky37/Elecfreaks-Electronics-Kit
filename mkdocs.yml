@@ -128,14 +128,14 @@ pages:
       - Telegraph: classroom_case_32.md
       - Railway Crossing: classroom_case_33.md
       - Karel: classroom_case_34.md
-	  
+
   - micro:bit relevant materials:
     - Edge Connector Data Sheet: Edge_Connector_Data_Sheet.md
     - How to Use Bluetooth(IOS System): How_to_Use_Bluetooth_IOS_System.md
     - troubleshooting downloads with webusb: troubleshooting_downloads_with_webusb.md
     - ring:bit car v2 accelerometer arithmetic: ring_bit_car_v2_accelerometer_arithmetic.md
     - How to use thinkspeak: how_to_use_thinkspeak.md
-	
+
   - micro:bit Kits:
     - micro:bit Watch Kit:
       - Introduction: watch_kit.md
@@ -171,7 +171,7 @@ pages:
       - Lesson 12 Accelerometer: starter_kit_case_12.md
       - Lesson 13 Compass: starter_kit_case_13.md
       - Lesson 14 Ambient Light: starter_kit_case_14.md
-	  
+
     - micro:bit Tinker Kit: 
       - Introduction: tinker_kit.md
       - Octopus:bit Introduction: octopus_bit.md
@@ -225,7 +225,7 @@ pages:
       - case 09 lie detector: smart_home_case_09.md
       - case 10 simple alarm box: smart_home_case_10.md
       - case 11 intruder detection system: smart_home_case_11.md
-	  
+
     - micro:bit experiment box kit:
       - introduction: experiment_box.md
       - circuit knowledge: experiment_box_circuit_knowledge.md
@@ -242,7 +242,7 @@ pages:
       - case 11 DC motor: experiment_box_case_11.md
       - circuit design 01: experiment_box_circuit_case_01.md
       - circuit design 02: experiment_box_circuit_case_02.md
-	  
+
     - ring:bit Car Kit: 
       - Introduction: ring_bit_car.md
       - Ring:bit Introduction: ring_bit.md
@@ -254,7 +254,7 @@ pages:
       - case 06 Turns over Detection: ring_bit_car_case_06.md
       - case 07 Light Follow: ring_bit_car_case_07.md
       - case 08 Remote Control by an accelerometer: ring_bit_car_case_08.md
-	  
+
     - ring:bit Car Kit V2: 
       - Introduction: ring_bit_car_v2.md
       - Ring:bit Car Assembly Step: ring_bit_car_v2_assembly_step.md
@@ -270,7 +270,7 @@ pages:
       - case 07 Turns over Detection : ring_bit_car_v2_case_07.md
       - case 08 Light Follow: ring_bit_car_v2_case_08.md
       - case 09 Remote Control by an accelerometer: ring_bit_car_v2_case_09.md
-	  
+
     - motor:bit Smart Car Kit: 
       - Introduction: motor_bit_smart_car.md
       - motor:bit Introduction: motor_bit_v16.md
@@ -280,13 +280,13 @@ pages:
       - case 04 Avoid Barrier: motor_bit_smart_car_case_04.md
       - case 05 Remote Control: motor_bit_smart_car_case_05.md
       - case 06 Bluetooth Control: motor_bit_smart_car_case_06.md  
-	  
+
     - robit Smart Car kit: 
       - Kit Introduction: robit_smart_car.md
       - mbot Introduction(robit): robit.md
       - robit Smart Car kit case01:ultrasonic measurement: robit_smart_car_case_01.md
       - robit Smart Car kit case02:line follow: robit_smart_car_case_02.md
-	  
+
     - Smart Science IoT Kit:
       - iot:kit: iotbit.md
       - iot:bit: iotbit.md
@@ -318,6 +318,7 @@ pages:
     - christmas tree rainbow led: christmas_tree_rainbow_led.md
     - snowflake buzzer: snowflake_buzzer.md      
     - 3V vertical water pump: 3V_vertical_water_pump.md
+
   - micro:bit Modules and Sensor:
     - Input: 
       - Analog Rotation Brick: octopus_ef04085.md
