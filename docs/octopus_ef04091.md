@@ -1,8 +1,8 @@
 ## Introduction
 ---
- Octopus Single RGB Rainbow LED is one of the single rainbow LED electronic bricks in OCTOPUS series. The basic design is upon the OCTOPUS electronic bricks series with the identical design on the outlook, PCB fixed orifices and the connectors of the electronic bricks.  The on-board LED is a  smart LED and an integration of control circuit and light-emitting circuit, it can be operated under a low voltage with a high luminance and large angle scattering.
+Octopus Single RGB Rainbow LED is one of the single rainbow LED electronic bricks in OCTOPUS series. The basic design is upon the OCTOPUS electronic bricks series with the identical design on the outlook, PCB fixed orifices and the connectors of the electronic bricks. The on-board LED is a smart LED and an integration of control circuit and light-emitting circuit, it can be operated under a low voltage with a high luminance and large angle scattering.
 
-## Characteristics 
+## Introduction
 ---
 
 - With data transmitting in single line and with unlimited concatenation.
@@ -13,29 +13,29 @@
 
 ## Parameter
 ---
-|         Item          |           Parameter            |
-| :-------------------: | :----------------------------: |
-|         Name          | Octopus Single RGB Rainbow LED |
-|        Version        |              V1.2              |
-|          SKU          |            EF04091             |
-|   Operating Voltage   |          DC 3.3~5.5V           |
-| Operating Temperature |   -40~+85 degree centigrade    |
-|       Dimension       |            27x19mm             |
-|      Net Weight       |              2.4g              |
+Item | Parameter 
+:-: | :-: 
+Name|Octopus Single RGB Rainbow LED
+Version|V1.2
+SKU|EF04091
+Working Voltage|DC 3.3~5.5V
+Working Temperature|-40~+85摄氏度
+Size|27x19mm
+NW|2.4g
 
-### Outlook and Dimension  
+### Outlook and Dimensions
 
 ![](https://i.imgur.com/w5nulIo.png)
 
-## Quick Start  
----
+## Quick Start
+**Hardware Connection**  
 
-### Hardware Connection  
-Connection note: Connect this to the P1 port in OCTOPUS:BIT.
+Connection note: Connect this to the P1 port in OCTOPUS:BIT, and insert the micro:bit into it.
+
 ![](https://i.imgur.com/AGdJhsV.png)
 
-### Software Programming  
-Start with microcode and then click "Advanced" in the selection of MakeCode.
+### **Software Programming**
+Click "Advanced"in the choice of the MakeCode to find more choices.
 
 ![](https://i.imgur.com/LjMR5IU.png)
 
@@ -43,13 +43,13 @@ We need to add a package for programming. Click "Add Package" on the bottom of t
 
 ![](https://i.imgur.com/meteyoR.png)
 
-Programme with accelerometer to control the color of LED.
-Program Links:[[https://makecode.microbit.org/_Fu0g597xD85g](https://makecode.microbit.org/_Fu0g597xD85g)](https://makecode.microbit.org/40248-92205-21488-21926)
+Programme to use accelerometer to control the color of LED. 
+Links: [[https://makecode.microbit.org/_Fu0g597xD85g](https://makecode.microbit.org/_Fu0g597xD85g)](https://makecode.microbit.org/40248-92205-21488-21926)
 
-You can also download it directly below:
+You can also download the links below:
 <div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:40248-92205-21488-21926" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>
 
-### Result  
+### Result
 
 The led begins with white light and then the color begins to change gradually with the shaking of the micro:bit.
 

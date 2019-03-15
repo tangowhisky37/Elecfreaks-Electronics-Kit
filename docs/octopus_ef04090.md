@@ -62,7 +62,7 @@ The output interfaces are used for 3.3V serial signal.
 ![](https://i.imgur.com/icDTCQO.png)
 
 ### Software Programming
-####  Step 1  Start with Makscode
+####  Step 1  Start with Makecode
 
  Open the on-line  programming page for makecode.
 
