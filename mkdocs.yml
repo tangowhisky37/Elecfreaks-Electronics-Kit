@@ -288,8 +288,8 @@ pages:
       - robit Smart Car kit case02:line follow: robit_smart_car_case_02.md
 
     - Smart Science IoT Kit:
-      - iot:kit: iotbit.md
-      - iot:bit: iotbit.md
+      - iot:kit: iot_kit.md
+      - iot:bit: iot_bit.md
       - iot:kit case01: IOT_bit_case01.md
       - iot:kit case02: IOT_bit_case02.md
       - iot:kit case03: IOT_bit_case03.md
