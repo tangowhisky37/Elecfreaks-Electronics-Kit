@@ -134,6 +134,7 @@ pages:
     - How to Use Bluetooth(IOS System): How_to_Use_Bluetooth_IOS_System.md
     - troubleshooting downloads with webusb: troubleshooting_downloads_with_webusb.md
     - ring:bit car v2 accelerometer arithmetic: ring_bit_car_v2_accelerometer_arithmetic.md
+    - Excel and micro:bit: 
 
 
   - micro:bit Kits:
@@ -293,7 +294,6 @@ pages:
       - iot:bit: iot_bit.md
       - How to use thinkspeak: how_to_use_thinkspeak.md
       - How to use IFTTT: 
-      - Excel and micro:bit: 
       - iot:kit case01: IOT_bit_case01.md
       - iot:kit case02: IOT_bit_case02.md
       - iot:kit case03: IOT_bit_case03.md
