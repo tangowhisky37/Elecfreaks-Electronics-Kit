@@ -293,7 +293,7 @@ pages:
       - iot:kit: iot_kit.md
       - iot:bit: iot_bit.md
       - How to use thinkspeak: how_to_use_thinkspeak.md
-      - How to use IFTTT: 
+      - How to use IFTTT: how_to_use_IFTTT.md
       - iot:kit case01: IOT_bit_case01.md
       - iot:kit case02: IOT_bit_case02.md
       - iot:kit case03: IOT_bit_case03.md
