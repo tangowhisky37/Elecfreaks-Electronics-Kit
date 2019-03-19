@@ -315,7 +315,7 @@ pages:
     - sensor:bit: sensor_bit.md
     - motor:bit v14: motor_bit_v14.md
     - joystick:bit v2: joystick_bit_v2.md
-    - iot:bit: iotbit.md
+    - iot:bit: iot_bit.md
     - edge:bit: edge_bit.md
     - joystick:bit: joystick_bit.md
     - Power Supply: microbit_power_supply.md
