@@ -1,93 +1,102 @@
-![12](https://i.imgur.com/5RJ1KJn.jpg)     
+ ![12](https://i.imgur.com/5RJ1KJn.jpg)  
 
-## Introduction    
----  
+## Introduction
 
-Micro:bit has integrated multiple sensors including accelerometer. Today, we are going to use accelerometer to make an level device and display the inclination on NeoPixel ring in bar chart format.   
+---
+micro:bit has integrated multiple sensors including accelerometer. Today, we are going to use accelerometer to make a level device and display the inclination on NeoPixel ring in bar chart format.
+
+## Component List
+
+---
+### Hardware:
+
+- 1 x [micro:bit Board](http://www.elecfreaks.com/estore/bbc-micro-bit-board-for-coding-programming.html)
+- 1 x USB Cable
+- 1 x [micro:bit Breadboard Adapter](http://www.elecfreaks.com/estore/microbit-breadboard-adapter.html)
+- 1 x [Transparent Breadboard - 83 * 55 mm](http://www.elecfreaks.com/estore/transparent-breadboard-83-55-mm.html)
+- 1 x 8 RGB LED NeoPixel Ring
+- n x [Breadborad Jumper Wire 65pcs Pack](http://www.elecfreaks.com/estore/breadborad-jumper-wire-65pcs-pack.html)
+
+****Tips: If you want all components above, you may need Elecfreaks Micro:bit Starter Kit.****
+
+![](https://i.imgur.com/W4tseua.jpg)
+
+## Major Component Introduction
+---
+### **Accelerometer**
+
+There is an accelerometer on your micro:bit which detects the speed change of micro:bit. It converts analog information into digital form that can be used in micro:bit programs. Output is in milli-g. The device will also detect a small number of standard actions, e.g. shake, tilt and free-fall.
+
+![](https://i.imgur.com/kzqAOK4.jpg)
+
+The corresponding X, Y, Z axle direction of accelerometer are showed below:
+
+![](https://i.imgur.com/FQ6zBkH.jpg) 
+
+## Experimental Procedure
+---
+### Hardware Connection
+Connect your components according to the picture below: 
+
+- Connect the signal wire of the LED ring to the P0 port of the breadboard adapter.
+
+![](https://i.imgur.com/NPvcrUo.jpg)
+
+After connection, we can see:
+
+![](https://i.imgur.com/SOD2TLb.jpg) 
+
+### Software Programming
+
+Click to open Microsoft Makecode, write the following code in the editor.(https://makecode.microbit.org/)
+
+![](https://i.imgur.com/JHZUvh2.png)
+
+### Add Package
+
+Click "Advanced"in the choice of the MakeCode to find more choices.
+
+![](https://i.imgur.com/smtcNoB.png)
+
+Click "Extensions", search "neopixel"in the dialog box and then download the "neopixel".
+
+![](https://i.imgur.com/umQwUC2.png)
+
+### Program as the picture shows:
+
+![](https://i.imgur.com/bGPUFxy.png)
+
+### Details for the code:
+- Set P0 port as the pin for LED beads and set it in RGB mode, then light on all the LED.
+
+![](https://i.imgur.com/NcVWUhr.png)
+
+- Set the color of the light is changed with the accelerated speed.
+
+![](https://i.imgur.com/GBBTLVt.png)
+
+### Reference
+Links:[https://makecode.microbit.org/_0Y07f36Y77sa](https://makecode.microbit.org/_0Y07f36Y77sa)
+
+You can also download the links directly:
+
+<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_0Y07f36Y77sa" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
+---
+
+## Result
+
+---
+The RGB LED ring lights on in different color with the movement of the micro:bit.
+
+![](https://i.imgur.com/iq9Hxs0.gif)
 
 
-## Component List      
----  
+## Exploration
+---
+If we want to set 4 of the LEDs to light on in turns, how can we design the circuit and program?
 
-### Hardware:  
-
-- 1 x [micro:bit Board](http://www.elecfreaks.com/estore/bbc-micro-bit-board-for-coding-programming.html)  
-- 1 x Micro-B USB Cable  
-- 1 x [micro:bit Breadboard Adapter](http://www.elecfreaks.com/estore/microbit-breadboard-adapter.html)  
-- 1 x [Transparent Breadboard - 83 * 55 mm](http://www.elecfreaks.com/estore/transparent-breadboard-83-55-mm.html)  
-- 1 x 8 RGB LED NeoPixel Ring  
-- 1 x [Breadborad Jumper Wire 65pcs Pack](http://www.elecfreaks.com/estore/breadborad-jumper-wire-65pcs-pack.html)  
-
-**Tips: If you want all components above, you may need [Elecfreaks Micro:bit Starter Kit](http://www.elecfreaks.com/estore/elecfreaks-micro-bit-starter-kit-795.html).**  
-
-![](https://i.imgur.com/W4tseua.jpg)  
-
-### Software:  
-
-[Microsoft Makecode Online Editor](https://makecode.microbit.org/)  
+## FAQ
+---
 
 
-## Major Component Introduction    
----  
-
-**Accelerometer**  
-
-There is an accelerometer on your micro:bit which detects the speed change of micro:bit. It converts analog information into digital form that can be used in micro:bit programs. Output is in milli-g. The device will also detect a small number of standard actions, e.g. shake, tilt and free-fall.  
- 
-![](https://i.imgur.com/kzqAOK4.jpg)  
-
-The corresponding X, Y, Z axle direction of accelerometer are showed below:   
-
-![](https://i.imgur.com/FQ6zBkH.jpg)  
-
-
-## Hardware Connection    
----  
-
-Please complete hardware connection according to the picture below.  
-![](https://i.imgur.com/NPvcrUo.jpg)  
-
-After connection, you will see:  
-![](https://i.imgur.com/SOD2TLb.jpg)   
-
-
-## Programming      
----  
-
-Open Microsoft Makecode, write your code in the edit area. I would like to suggest you program by yourself first.  
-
-Of course, you can download the whole program from the link below.  
-
-[https://makecode.microbit.org/_R2yHPUecyh2i](https://makecode.microbit.org/_R2yHPUecyh2i)   
-
-
-## Code Explain    
----  
-
-**show bar graph**  
-Display the value with bar chart format just similar to plot bar graph.  
-
-**Acceleration**  
-Get the acceleration value (milli g-force) in one of three dimensions, or the combined force in all directions (x, y, and z).  
-
-
-## Experiment Result    
----  
-
-With the inclination of micro:bit, LED bead on Neopixel ring gradually illuminated one by one. The bigger inclination angle, more LED beads will be illuminated.  
-
-![](https://i.imgur.com/IdpGKQJ.gif)  
-
-
-## Think     
----    
-
-In this case, we have judged the inclination of one direction(X axle) only. If we want to test the inclination of a flat surface( say XY flat surface), then how to design circuit and program. We look forward to your comments and further discussions with us.   
-
-
-
-## FAQ  
----  
-
-   
 
