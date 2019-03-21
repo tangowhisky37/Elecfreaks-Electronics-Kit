@@ -46,8 +46,6 @@ If you check the LED with care you would notice the two features: one is that th
 ### Resistor
 Resistor is a component for current control. It can limit the current of the circuit connected. And in our experiment, we use 100Ω resistance, if there is no current limit, the LED might be damaged.
 
-![img](https://i.imgur.com/WS9Fk9x.jpg)
-
 ![](https://i.imgur.com/WS9Fk9x.jpg)
 
 Want to know resistor value by color circles? You can read this article: 
