@@ -133,8 +133,7 @@ pages:
     - Edge Connector Data Sheet: Edge_Connector_Data_Sheet.md
     - How to Use Bluetooth(IOS System): How_to_Use_Bluetooth_IOS_System.md
     - troubleshooting downloads with webusb: troubleshooting_downloads_with_webusb.md
-    - ring:bit car v2 accelerometer arithmetic: ring_bit_car_v2_accelerometer_arithmetic.md
-    - Excel and micro:bit: excel_and_microbit.md
+
 
 
   - micro:bit Kits:
@@ -263,6 +262,7 @@ pages:
       - Ring:bit Introduction of E-blocks: ring_bit_car_v2_extensions.md
       - line flow module: ring_bit_car_v2_line_flow_module.md
       - Rainbow LED module: ring_bit_car_v2_Rainbow_LED_module.md
+      - ring:bit car v2 accelerometer arithmetic: ring_bit_car_v2_accelerometer_arithmetic.md
       - case 01 Full speed ahead: ring_bit_car_v2_case_01.md
       - case 02 Make a shape: ring_bit_car_v2_case_02.md
       - case 03 Turn at an angle: ring_bit_car_v2_case_03.md
@@ -286,23 +286,6 @@ pages:
     - robit Smart Car kit: 
       - Kit Introduction: robit_smart_car.md
       - mbot Introduction(robit): robit.md
-      - robit Smart Car kit case01:ultrasonic measurement: robit_smart_car_case_01.md
-      - robit Smart Car kit case02:line follow: robit_smart_car_case_02.md
-
-    - Smart Science IoT Kit:
-      - iot:kit: iot_kit.md
-      - iot:bit: iot_bit.md
-      - How to use thinkspeak: how_to_use_thinkspeak.md
-      - How to use IFTTT: how_to_use_IFTTT.md
-      - iot:kit case01: IOT_bit_case01.md
-      - iot:kit case02: IOT_bit_case02.md
-      - iot:kit case03: IOT_bit_case03.md
-      - iot:kit case04: IOT_bit_case04.md
-      - iot:kit case05: IOT_bit_case05.md
-
-  - micro:bit Modules:
-    - mbot Introduction(robit): 
-      - robit Introduction: robit.md
       - case 01 Ultrasonic Distance Measurement: robit_case_01.md
       - case 02 Ultrasonic Obstacle Avoidance: robit_case_02.md
       - case 03 Never Fallen Car: robit_case_03.md
@@ -312,6 +295,22 @@ pages:
       - case 07 Smart Car Light: robit_case_07.md
       - case 08 Bluetooth remote control: robit_case_08.md
       - case 09 Reaction test game: robit_case_09.md
+      - robit Smart Car kit case01:ultrasonic measurement: robit_smart_car_case_01.md
+      - robit Smart Car kit case02:line follow: robit_smart_car_case_02.md
+
+    - Smart Science IoT Kit:
+      - iot:kit: iot_kit.md
+      - iot:bit: iot_bit.md
+      - How to use thinkspeak: how_to_use_thinkspeak.md
+      - How to use IFTTT: how_to_use_IFTTT.md
+      - Excel and micro:bit: excel_and_microbit.md
+      - iot:kit case01: IOT_bit_case01.md
+      - iot:kit case02: IOT_bit_case02.md
+      - iot:kit case03: IOT_bit_case03.md
+      - iot:kit case04: IOT_bit_case04.md
+      - iot:kit case05: IOT_bit_case05.md
+
+  - micro:bit Modules:
     - sensor:bit: sensor_bit.md
     - motor:bit v14: motor_bit_v14.md
     - joystick:bit v2: joystick_bit_v2.md
@@ -319,9 +318,7 @@ pages:
     - edge:bit: edge_bit.md
     - joystick:bit: joystick_bit.md
     - Power Supply: microbit_power_supply.md
-    - christmas tree rainbow led: christmas_tree_rainbow_led.md
-    - snowflake buzzer: snowflake_buzzer.md      
-    - 3V vertical water pump: 3V_vertical_water_pump.md
+
 
   - micro:bit Octopus:
     - Input: 
@@ -348,6 +345,7 @@ pages:
       - Octopus 5mm LED Brick - Yellow: octopus_ef04066.md
       - Octopus Motor Brick: octopus_ef04059.md   
       - OCTOPUS Vibration Motor: octopus_ef04074.md
+      - 3V vertical water pump: 3V_vertical_water_pump.md
     - Sensor:
       - sonar:bit: sonar_bit.md
       - BME280 Air Pressure Sensor: octopus_ef04087.md
