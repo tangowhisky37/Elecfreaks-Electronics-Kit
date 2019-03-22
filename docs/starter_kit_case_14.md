@@ -1,93 +1,98 @@
-![14](https://i.imgur.com/NkZTTdv.jpg)  
+ ![14](https://i.imgur.com/NkZTTdv.jpg) 
 
-## Introduction    
----  
+## Introduction
 
-In our blog “Micro:bit Experiment 04: Photocell — Elecfreaks Mirco: bit Starter Kit Course”, we had connected a photocell externally to sense the light. Actually, micro:bit has integrated a light detection device internally. Today we are going to use the internal light sensor to do an experiment. We will light a rainbow LED ring when the light in the outer environment is comparatively dark.     
+---
+In our blog micro:bit Experiment 04: Photocell — Elecfreaks mirco: bit Starter Kit Course”, we had connected a photocell externally to sense the light. Actually, micro:bit has integrated a light detection device internally. Today we are going to use the internal light sensor to do an experiment. We will light a rainbow LED ring when the light in the outer environment is comparatively dark.
+
+## Component List
+
+---
+### Hardware:
+
+- 1 x [micro:bit Board](http://www.elecfreaks.com/estore/bbc-micro-bit-board-for-coding-programming.html)
+- 1 x Micro-B USB Cable
+- 1 x [micro:bit Breadboard Adapter](http://www.elecfreaks.com/estore/microbit-breadboard-adapter.html)
+- 1 x [Transparent Breadboard - 83 * 55 mm](http://www.elecfreaks.com/estore/transparent-breadboard-83-55-mm.html)
+- 1 x 8 RGB LED NeoPixel Ring
+- n x [Breadborad Jumper Wire 65pcs Pack](http://www.elecfreaks.com/estore/breadborad-jumper-wire-65pcs-pack.html)
+
+****Tips: If you want all components above, you may need Elecfreaks micro:bit Starter Kit.****
+
+![](https://i.imgur.com/W4tseua.jpg)
+
+## Major Component Introduction
+---
+You might be curious about how micro:bit senses light without any light sensor. Let’s see a paragraph about display on micro:bit website:
+
+The display is a 5x5 array of LEDs. It is connected to the micro:bit as a 3x9 matrix. Runtime software repeatedly refreshes this matrix at a high speed, such that it is within the user persistence of vision range, and no flicker is detected. This LED matrix is also used to sense ambient light, by repeatedly switching some of the LED drive pins into inputs and sampling the voltage decay time, which is roughly proportional to ambient light levels.
+
+![](https://i.imgur.com/1JzFZG3.jpg) 
+
+That’s really amazing! Except for its light emitting ability, micro:bit can sense light!Because LEDs are so commonly used as light emitters it is easy to forget that they are fundamentally photodiodes, and as such are light detectors as well.The function may be implemented with no additional hardware cost if incorporated in the LED driver circuit.
+
+## Experimental Procedure
+---
+## Hardware Connection
+
+Connect your components according to the picture below:
+
+- Connect the signal wire of the LED ring to the P0 port of the breadboard adapter.
+
+![](https://i.imgur.com/fKgQRoW.jpg)
+
+After connection, we can see:
+
+![](https://i.imgur.com/Hacl6BL.jpg)
+
+### Software Programming
+
+Click to open Microsoft Makecode, write the following code in the editor.(https://makecode.microbit.org/)
+
+![](https://i.imgur.com/JHZUvh2.png)
+
+### Add Package
+
+  Click "Advanced"in the choice of the MakeCode to find more choices.
+
+![](https://i.imgur.com/smtcNoB.png)
+
+Click "Extensions", search "neopixel"in the dialog box and then download the "neopixel".
+
+![](https://i.imgur.com/umQwUC2.png)
+
+### Program as the picture shows:
+
+![](https://i.imgur.com/AZCjDfR.png)
+
+### Details for the code:
+- 1.Set P0 port as the output of the ring signal and set the color mode to RGB.
+
+![](https://i.imgur.com/ZlZCHyZ.png)
+
+- 2.When the light level received by micro:bit is lower than 10, the ring lights on in many colors.
+
+![](https://i.imgur.com/XoTAOIf.png)
+
+### Reference
+Links:[https://makecode.microbit.org/_Cxo28oDKjLyY](https://makecode.microbit.org/_Cxo28oDKjLyY)
+
+You can also download the links directly:
+
+<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_Cxo28oDKjLyY" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
+---
+
+## Result
+---
+When in darkness, the LED ring will be turned on; while in brightness, the LED ring will be turned off.
+
+![](https://i.imgur.com/F9B9ySD.gif)
 
 
-## Component List    
----  
-
-### Hardware:  
-
-- 1 x [micro:bit Board](http://www.elecfreaks.com/estore/bbc-micro-bit-board-for-coding-programming.html)  
-- 1 x Micro-B USB Cable  
-- 1 x [micro:bit Breadboard Adapter](http://www.elecfreaks.com/estore/microbit-breadboard-adapter.html)  
-- 1 x [Transparent Breadboard - 83 * 55 mm](http://www.elecfreaks.com/estore/transparent-breadboard-83-55-mm.html)  
-- 1 x 8 RGB LED NeoPixel Ring  
-- 1 x [Breadborad Jumper Wire 65pcs Pack](http://www.elecfreaks.com/estore/breadborad-jumper-wire-65pcs-pack.html)  
-
-**Tips: If you want all components above, you may need [Elecfreaks Micro:bit Starter Kit](http://www.elecfreaks.com/estore/elecfreaks-micro-bit-starter-kit-795.html).**  
-
-![](https://i.imgur.com/W4tseua.jpg)  
-
-### Software:  
-
-Microsoft Makecode Online Editor  
-
-
-## Major Component Introduction    
----  
-
-You might be curious how micro:bit senses light without any light sensor. Let’seea paragraph about display on micro:bit website:  
-
-The display is a 5x5 array of LEDs. It is connected to the micro:bit as a 3x9 matrix. Runtime software repeatedly refreshes this matrix at a high speed, such that it is within the user persistence of vision range, and no flicker is detected. This LED matrix is also used to sense ambient light, by repeatedly switching some of the LED drive pins into inputs and sampling the voltage decay time, which is roughly proportional to ambient light levels.  
-
-![](https://i.imgur.com/1JzFZG3.jpg)  
-
-That’s really amazing! Except for its light emitting ability, micro:bit can sense light!Because LEDs are so commonly used as light emitters it is easy to forget that they are fundamentally photodiodes, and as such are light detectors as well.The function may be implemented with no additional hardware cost if incorporated in the LED driver circuit.  
-
-
-## Hardware Connection    
----  
-
-Please complete hardware connection according to the picture below.  
-![](https://i.imgur.com/fKgQRoW.jpg)   
-
-After connection, you will see:  
-![](https://i.imgur.com/Hacl6BL.jpg)  
-
-
-## Programming    
----  
-
-Open Microsoft Makecode, write your code in the edit area. I would like to suggest you program by yourself first.  
-Of course, you can download the whole program from the link below.   
-
-[https://makecode.microbit.org/_Ws5gzMYvvM2x](https://makecode.microbit.org/_Ws5gzMYvvM2x)  
-
-
-## Code Explain    
----  
-
-**Light Level **  
-Find the light level (how bright or dark it is) where you are. The light level 0 means darkness and 255 means bright light. The micro:bit measures the light around it by using some of the LEDs on the LED screen.  
-
-**Clear**  
-Set the color value of all RGB LED beads to be 0.  
-
-Note:   
-Use LED as a light sensor is not sensitive. It requires comparatively brighter light so that light level can change.  
-
-
-## Experiment Result    
----  
-
-When in darkness, the LED ring will be turned on; while in brightness, the LED ring will be turned off.  
-
-![](https://i.imgur.com/F9B9ySD.gif)  
-
-
-## Think    
----  
-
-If we want to rotate the rainbow color after the ring was illuminated, then how to design circuit and program? We look forward to your comments and further discussions.  
-
-
+## Exploration
+---
+If we want to rotate the rainbow color after the ring is illuminated, then how to design circuit and program? 
 
 ## FAQ
 ---
-
-   
 

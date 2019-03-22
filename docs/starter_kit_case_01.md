@@ -1,15 +1,14 @@
-![1](https://i.imgur.com/GMzHtFZ.jpg)
+ ![1](https://i.imgur.com/GMzHtFZ.jpg)
 
-## Introduction:  
+## Introduction:
+
 ---
-
 LED has wide applications. Most signal lights we saw in our daily life use LED as its major light source. In today’s experiment, we are going to use Micro:bit to make 2 LED beads twinkle alternatively.
 
+## Components List:
 
-## Components List:  
 ---
-
-### Hardware:  
+### Hardware:
 
 - 1 x [Micro:bit Board](http://www.elecfreaks.com/estore/bbc-micro-bit-board-for-coding-programming.html)
 - 1 x MicroB USB Cable
@@ -17,102 +16,96 @@ LED has wide applications. Most signal lights we saw in our daily life use LED a
 - 1 x [Transparent Breadboard - 83 * 55 mm](http://www.elecfreaks.com/estore/transparent-breadboard-83-55-mm.html)
 - 2 x LED
 - 2 x 100 Ohm Resistors
-- 1 x [Breadborad jumper wire 65pcs pack](http://www.elecfreaks.com/estore/breadborad-jumper-wire-65pcs-pack.html)
+- n x [Breadborad jumper wire 65pcs pack](http://www.elecfreaks.com/estore/breadborad-jumper-wire-65pcs-pack.html)
 
-**Tips: If you want all components above, you may need [Elecfreaks Micro:bit Starter Kit](http://www.elecfreaks.com/estore/elecfreaks-micro-bit-starter-kit-795.html).**
+Tips: If you want all components above, you may need Elecfreaks Micro:bit Starter Kit.
 
 ![](https://i.imgur.com/W4tseua.jpg)
 
-### Software:  
-
-[Microsoft Makecode Online Editor](https://makecode.microbit.org/)
-
-
-## Major Components Introduction  
+## Major Components Introduction
 ---
+### Micro:bit Breadboard Adapter
 
-### Micro:bit Breadboard Adapter  
-
-Micro: bit Breadboard Adapter can extend all footers of Micro: bit to breadboard so that we can create circuit on breadboard easily.
+Micro: bit Breadboard Adapter can extend all pins of Micro: bit , so that we can create simple circuit on breadboard.
 
 ![](https://i.imgur.com/dq75zKC.jpg)
 
-This is how Micro: bit Breadboard Adapter is plugged into breadboard. It can be suitable to all kinds of breadboards.
+This picture shows how Micro: bit Breadboard Adapter is plugged into breadboard. It is suitable to all kinds of breadboards.
 
 ![](https://i.imgur.com/3DHC6U8.jpg)
 
-### LED  
+### LED
+LED is the abbreviation of Light Emitting Diode. It is a kind of semi-conductor diode and can convert electricity into light(When the current passes, it will light on)
 
-LED is the abbreviation of Light Emitting Diode. It is a kind of semi-conductor diode. It can convert electricity into light. When current passes throught it, it will glow with light.
- 
 ![](https://i.imgur.com/gDwJTlH.jpg)
+
 ![](https://i.imgur.com/t8e1q6X.jpg)
- 
-If you look carefully at the LED you will notice two things. One is that the legs are of different lengths and also that on one side of the LED, instead of it being cylindrical, it is flattened. These are indicators to show you which leg is the Anode (Positive) and which is the Cathode (Negative). The longer leg gets connected to the Positive Supply (3.3v) and the leg with the flattened side goes to Ground.
 
-### Resistance  
+If you check the LED with care you would notice the two features: one is that the legs are in different lengths , another is that on one side of the LED, instead of it being cylindrical, it is flattened. These are indicators to show which leg is the Anode (Positive) and which is the Cathode (Negative). The longer leg gets connected to the Positive Supply (3.3v) and the leg with the flattened side goes to Ground.
 
-Resistance is a component for current control. It can limit the current of the circuit connected. And in our experiment, we use 100Ω resistance. If there is no current limit, it will cause LED damage.
+### Resistor
+Resistor is a component for current control. It can limit the current of the circuit connected. And in our experiment, we use 100Ω resistance, if there is no current limit, the LED might be damaged.
 
 ![](https://i.imgur.com/WS9Fk9x.jpg)
 
-Want to know resistance value by color circles? You can read this article: [How to Identify Color Circle Resistance Value](https://www.elecfreaks.com/9158.html).
+Want to know resistor value by color circles? You can read this article: 
+[How to Identify Color Circle Resistance Value](https://www.elecfreaks.com/9158.html).
 
-
-## Hardware Connection  
+## Experimental Procedure
 ---
+## Hardware Connection
 
-Connect your components according to the picture below:
+Connect your components according to the picture below: 
+
+- 1. Connect the shorter leg with the GND.
+- 2. Connector the longer leg with the P0 and P1 ports through the Resistor.
+
 ![](https://i.imgur.com/6JA8ooG.jpg)
- 
-After connection, you will see:
+
+You would see as  below after you finish the connection: 
+
 ![](https://i.imgur.com/ZEP7gfe.jpg)
 
+### Software Programming
 
-## Programming  
+Click to open [Microsoft Makecode](https://makecode.microbit.org/), write the following code in the editor.
+
+![](https://i.imgur.com/JHZUvh2.png)
+
+### Program as the picture shows:
+
+![](https://i.imgur.com/qI96YEM.png)
+
+###  Details for the code:
+- 1. Digital write signal 0 to P0 port to turn off the LED; digital write signal 1 to P1 port to turn on the LED,  then set the pause in 500ms.
+
+![](https://i.imgur.com/CRTiOq3.png)
+
+- 2. Digital write signal 1 to P0 port to turn on the LED; digital write signal 0 to P1 port to turn off the LED,  then set the pause in 500ms.
+
+![](https://i.imgur.com/xP8o5Xk.png)
+
+### Reference
+Links: [https://makecode.microbit.org/_LybdqfauX3TR](https://makecode.microbit.org/_LybdqfauX3TR)
+
+You can also download the links directly:
+
+<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_LybdqfauX3TR" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
 ---
 
-Click to open [Microsoft Makecode](https://makecode.microbit.org/), write the following code in the edit area.
-
-![](https://i.imgur.com/s5sUftj.jpg)
-
-You can see the whole program in the page below. Click “Edit” on the right top corner, and then “download”, you can download your code into Micro:bit.
-
-<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_aPtRppeup0E5" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>
-
-
-Link of the whole program: https://makecode.microbit.org/_gLbYpW5wK6z7
-
-
-### Code Explain:
-
-**Forever**
-The forever block is a block that loops any other command blocks inserted into it over and over again…forever. It starts from the top and executes your code in order working its way to the bottom and then starts at the top again.
-
-**Digital Write**
-The DigitalWrite block enables you to turn a pin on or off. There is a dropdown option for which pin you want to control, and it accepts a variable as the pins state. You use 1 as on and 0 as off. If you prefer, you can also use Boolean states of true and false, but we will use 0 and 1 as our standard throughout this guide.
-
-**Pause**
-If you were to just turn pins on and off with the digital write block without a pause, the LED would blink really, really fast. The pause block enables you to slow the micro:bit down and lets you control the timing of things happening. It accepts a number or variable as the number of milliseconds you want the micro:bit to pause. Think of this block as a stoplight for your code!
-
-
-## Experiment Result  
+## Result
 ---
-
-You can see 2 LEDs flashing alternatively. If it is not, go back and check your operations.
+You can see the  2 LEDs flashing alternatively. If not, you need to go back and check your operations.
 
 ![](https://i.imgur.com/xvYjvaQ.gif)
 
 
-## Think  
+## Exploration
 ---
-
-If we want to control 4 LED beads and make it illuminate by turns, then how shall we design our circuit and make program. We would like to receive your further discussion with us. You can leave your comment below.
-
-
+If we want to control 4 LEDs and make them illuminated in turns, how can we design the circuit and code?  Welcome to have a further discussion with us!
 
 ## FAQ
 ---
+     
 
-   
 

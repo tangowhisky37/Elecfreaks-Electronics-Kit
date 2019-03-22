@@ -1,14 +1,11 @@
-![4](https://i.imgur.com/MwngMAi.jpg)
+ ![4](https://i.imgur.com/MwngMAi.jpg)
 
-## Introduction  
+## Introduction:
 ---
+Photocell is a kind of special resistor based on internal photoelectric effect. Its value of resistance is opposite to the brightness of the light, the brighter of the light is,  the lower of the value of the resistance will be. Usually photocell is the core component of a photoswitch. In the following experiment, we are going to use photocell to control the brightness of 5*5 LED screen on micro:bit.
 
-Photocell is a kind of special resistance based on internal photoelectric effect. Its resistant value is opposite to the brightness of light. Brighter light leads to lower resistant value. Usually photocell is the core component of a photoswitch. In the following experiment, we are going to use photocell to control the brightness of 5*5 LED screen on micro:bit.
-
-
-## Component List  
+## Components List:
 ---
-
 ### Hardware:
 
 - 1 x [micro:bit Board](http://www.elecfreaks.com/estore/bbc-micro-bit-board-for-coding-programming.html)
@@ -17,109 +14,72 @@ Photocell is a kind of special resistance based on internal photoelectric effect
 - 1 x [Transparent Breadboard - 83 * 55 mm](http://www.elecfreaks.com/estore/transparent-breadboard-83-55-mm.html)
 - 1 x Photocell
 - 1 x 10k Ohm Resistors
-- 1 x [Breadborad jumper wire 65pcs pack](http://www.elecfreaks.com/estore/breadborad-jumper-wire-65pcs-pack.html)
+- n x [Breadborad jumper wire 65pcs pack](http://www.elecfreaks.com/estore/breadborad-jumper-wire-65pcs-pack.html)
 
-**Tips: If you want to buy all components above, then you will need [Elecfreaks micro:bit Starter Kit](http://www.elecfreaks.com/estore/elecfreaks-micro-bit-starter-kit-795.html).**
+****Tips: If you want to buy all components above, then you will need Elecfreaks micro:bit Starter Kit.****
 
 ![](https://i.imgur.com/W4tseua.jpg)
 
-### Software:
-
-[Microsoft Makecode Online Editor](https://makecode.microbit.org/)
-
-
-## Introduction of Major Components  
+## Major Components Introduction
 ---
-
 ### Photocell
 
-Photocell is a kind of special resistance made of semi-conductor materials like Cds or CdSe. It is based on internal photoelectric effect. Brighter light, lower resistant value. As with the increase intensity of light, its resistant value swiftly decreased. The minimum light resistant value can reach under 1KΩ. Photocell is very sensitive to light. When there is no light, its resistant value arrives maximum. Its dark resistant value usually can reach 1.5MΩ at max.  
+Photocell is a kind of special resistor made of semi-conductor materials like Cds or CdSe based on internal photoelectric effect. The brighter of the light is,  the lower of the value of the resistance will be. with the intensity of light increasing, its resistant value decreased sharply, and the minimum light resistant value can drop down to below 1KΩ. Photocell is very sensitive to light. When there is no light, its resistant value arrives to its maximum and its dark resistant value usually can reach 1.5MΩ at max.
 
 ![](https://i.imgur.com/jS03zGQ.jpg)
 
-
-## Hardware Connection  
+## Experimental Procedure
 ---
+### Hardware Connection
+Connect your components according to the picture below: 
 
-Please complete hardware connection according to the picture below.
+- 1.Connect the Photocell to P0 port.
+- 2.Connect the 10Ω resistor with the Photocell in parallel.
 
 ![](https://i.imgur.com/FtQDhiS.jpg)
 
-A bleeder circuit will be formed when photocell and 10KΩ resistance connect inserial.
-
-After connection, you can see:
+You would see as  below after you finish the connection: 
 
 ![](https://i.imgur.com/TMd3Fq8.jpg)
 
+### Software Programming
 
-## Programming  
+Click to open [Microsoft Makecode](https://makecode.microbit.org/), write the following code in the editor.
+
+![](https://i.imgur.com/JHZUvh2.png)
+
+### Program as the picture shows:
+
+![](https://i.imgur.com/Hdxt7qd.png)
+
+### Details for the code:
+- 1.Analog read the voltage as the reference value for the brightness in "on start"
+
+![](https://i.imgur.com/Oj48CCS.png)
+
+- 2.In the brick of "forever", analog read the voltage from P0 port repeatedly. Once the voltage lower than reference value minus 2( it shows if the intensity of light increases, the resistant value of photocell would decrease), then it tells the light has been turned off.  At the moment, an icon is showing on the micro:bit, the calibrationVal minus 2 is used to adjust the sensitivity,  the lower value is,  the higher of the sensitivity would be.
+
+![](https://i.imgur.com/bd9M5tC.png)
+
+### Reference
+Links:[https://makecode.microbit.org/_3tFFoPhLF7hX](https://makecode.microbit.org/_3tFFoPhLF7hX)
+
+You can also download the links directly:
+
+<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_3tFFoPhLF7hX" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
 ---
 
-Open Microsoft Makecode, write code in editor window. I would like to suggest you to try programming by yourself first.
-
-Of course, you can see the whole program in the link below. Just click “Edit” on the right top corner, then click “download” to download the whole code into micro:bit. 
-
-<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_iqDLctEkHFj1" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>
-
-Link of the whole program: [https://makecode.microbit.org/_iqDLctEkHFj1](https://makecode.microbit.org/_iqDLctEkHFj1)
-
-
-## Code Explain  
+## Result
 ---
-
-**set**
-
-This is assignment operation. set a to 1 equals to “a=1”. We use an equals sign to make a variable store the number or string you say.
-When you use the equals sign to store something in a variable, the equals sign is called an assignment operator, and what you store is called a value.
-
-**analog read**
-
-Read an analog signal (0 through 1023) from the pin you say.
-
-**show icon**
-
-Shows the selected icon on the LED screen
-
-**Clear Screen**
-
-Turn off all the LED lights on the LED screen.
-
-**If else**
-
-In Lesson 2, we have talked about the usage of “if” sentence. In sentence of “ if else”, when the format value is false(or 0), then it will implement “else” brick program before running program in sequence. Here is the flow chart: 
-
-![](https://i.imgur.com/E5Xi2Uu.jpg)
-
-In this experiment, micro:bit read analog voltage of Pin0 port as the reference value of brightness.
-
-![](https://i.imgur.com/Tck85NO.jpg)
-
-In brick “ forever” , scan analog voltage of Pin0 in circulation. Once the voltage lower than reference value minus 2( it shows intensity of light increase, resistant value of photocell decrease), then it tells the light has been turned off. 
-
-![](https://i.imgur.com/K8tmDxV.jpg)
-
-In program, calibrationVal-2 is for adjusting sensitivity. Lower value, higher sensitivity. However, it is not suitable for all kinds of light environment. You have to adjust this parameter until it can adapt to the present light condition. 
-
-
-## Experiment Result
----
-
-Turn on light, 5*5 LED screen on micro:bit become empty. Turn off light, LED screen displays a sign of heart.
+Turn on the light, the LED screen on micro:bit shows nothing. Turn off light, the LED screen displays an icon.
 
 ![](https://i.imgur.com/1Xu4lBR.gif)
 
-**Note:**
-After resetting micro:bit, it will calibrate the reference value according to the present brightness. So, in order to make the program run properly, we must start micro:bit program on the condition that the light is turned on . 
 
-
-## Think
+## Elploration
 ---
-
-If we want to use photocell to control a LED bead, then how to design circuit and program? We look forward to your further discussions or comments.
-
+If we want to use photocell to control a LED,  how to design circuit and program? 
 
 ## FAQ
 ---
-
-   
 

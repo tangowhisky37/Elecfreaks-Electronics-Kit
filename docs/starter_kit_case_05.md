@@ -1,138 +1,85 @@
-![5](https://i.imgur.com/mEAx3Tx.jpg)    
+ ![5](https://i.imgur.com/mEAx3Tx.jpg)  
 
-## Introduction    
----  
+## Introduction:
+---
+RGB LED is a kind of LED that can emit light in three different colors: red, green and blue. In this experiment, we are going to make RGB LED  shifts its light among the three different colors gradually.
 
-RGB LED is a kind of LED. It can emit light with three different colors: red, green and blue. In this experiment, we are trying to make RGB LED gradually shift its light among the three different colors.    
+## Components List:
+---
+### Hardware:
+- 1 x [micro:bit Board](http://www.elecfreaks.com/estore/bbc-micro-bit-board-for-coding-programming.html)
+- 1 x Micro-B USB Cable
+- 1 x [microbit Breadboard Adapter](http://www.elecfreaks.com/estore/microbit-breadboard-adapter.html)
+- 1 x [Transparent Breadboard - 83 * 55 mm](http://www.elecfreaks.com/estore/transparent-breadboard-83-55-mm.html)
+- 1 x RGB LED
+- 3 x 100 Ohm Resistors
+- n x [Breadborad jumper wire 65pcs pack](http://www.elecfreaks.com/estore/breadborad-jumper-wire-65pcs-pack.html)
 
-## Component List    
----  
+**Tips: If you want to buy all components above, you may need Elecfreaks Micro:bit Starter Kit.**
 
-### Hardware:   
+![](https://i.imgur.com/W4tseua.jpg)
 
-- 1 x [micro:bit Board](http://www.elecfreaks.com/estore/bbc-micro-bit-board-for-coding-programming.html)    
-- 1 x Micro-B USB Cable     
-- 1 x [microbit Breadboard Adapter](http://www.elecfreaks.com/estore/microbit-breadboard-adapter.html)    
-- 1 x [Transparent Breadboard - 83 * 55 mm](http://www.elecfreaks.com/estore/transparent-breadboard-83-55-mm.html)    
-- 1 x RGB LED    
-- 3 x 100 Ohm Resistors    
-- 1 x [Breadborad jumper wire 65pcs pack](http://www.elecfreaks.com/estore/breadborad-jumper-wire-65pcs-pack.html)    
+## Major Components Introduction
+---
+### RGB LED
 
-**Tips: If you want to buy all components above, you may need [Elecfreaks Micro:bit Starter Kit](http://www.elecfreaks.com/estore/elecfreaks-micro-bit-starter-kit-795.html).**  
+RGB LED is a kind of LED that has integrated red LED, green LED, and blue LED into a component. We all knows that the three primary colors of light are red, green, and blue. With different groups of the three color lights, we can create all colors of the world. Similarly, if we use RGB LED to group lights with different brightness, then it can form various colors.  
 
-![](https://i.imgur.com/W4tseua.jpg)  
+![](https://i.imgur.com/9VLb4LB.jpg)
+![](https://i.imgur.com/kaoHHJ2.jpg)
 
-### Software:  
+RGB LED can be divided into 2 types: common anode and common cathode. In common-cathode RGB LED, its common port usually connects GND, while in common-anode RGB LED, its common port connects VCC. In this experiment, we choose common-cathode RGB LED.
 
-[Microsoft Makecode Online Editor](https://makecode.microbit.org/)  
+## Experimental Procedure
+---
+## Hardware Connection
 
+Connect your components according to the picture below: 
 
-## Major Component Introduction    
----  
+- 1.Connect the three pins of the RGB led to the P0, P1 and P2 accordingly, then connect with a 100Ω resistor.
+- 2.Connect the GND of the RGB led with the GND of the breadboard adapter through the breadboard.
 
-### RGB LED  
+![](https://i.imgur.com/krrGHBs.jpg)
 
-RGB LED is a kind of LED, which has integrated red LED, green LED, and blue LED into a component. We all knows that the three primary colors of light are red, green, and blue. With different groups of the three color lights, we can create all colors of the world. Similarly, if we use RGB LED to group lights with different brightness, then it can form various colors.    
+You would see as  below after you finish the connection: 
 
-![](https://i.imgur.com/9VLb4LB.jpg)  
-![](https://i.imgur.com/kaoHHJ2.jpg)  
-  
-RGB LED can be divided into 2 types: common anode and common cathode. In common-cathode RGB LED, its common port usually connects GND, while in common-anode RGB LED, its common port connects VCC. In this experiment, we choose common-cathode RGB LED.   
+![](https://i.imgur.com/DkfsnTs.jpg)
 
+### Software Programming
 
-## Hardware Connection       
----    
+Click to open [Microsoft Makecode](https://makecode.microbit.org/), write the following code in the editor.
 
-Please complete hardware connection according to the picture below.    
+![](https://i.imgur.com/JHZUvh2.png)
 
-![](https://i.imgur.com/krrGHBs.jpg)    
+### Program as the picture shows:
 
-After connection, you can see:    
+![](https://i.imgur.com/iPoWv7j.png)
 
-![](https://i.imgur.com/DkfsnTs.jpg)    
+### Details for the code:
+- When press the button A, set the R to 1, G， B to 0. When press the button B, and press the button A+B, set it in a similar way.
 
+![](https://i.imgur.com/mjt36BA.png)
 
-## Programming        
----   
+### Reference
+Links:[https://makecode.microbit.org/_Th3Vum76F4Tr](https://makecode.microbit.org/_Th3Vum76F4Tr)
 
-Open Microsoft Makecode, write code in edit area. I would like to suggest you program by yourself first.      
+You can also download the links directly:
 
-Of course, if you want to see the whole program directly, you can click the link below. Just click “Edit”on the right top corner of the interface you opened, then click “Download” on the right bottom to download code into micro:bit directly.    
-
-<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_7PJd01g8pc8i" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
-
-Link of the whole program: [https://makecode.microbit.org/_dMgdWubkTVaM](https://makecode.microbit.org/_dMgdWubkTVaM)
-
-
-## Code Explain        
----  
-
-**Change Value**    
-
-Set the value for local and global variables. change r by 1 equals “r=r+1”.  
-
-**repeat**    
-
-Run part of the program the number of times you say.     
-
-**function**    
-
-A function is some amount of code you can reuse in your program. You create a function using a function definition which names the function and has its code. A function call is when you use a function by its name somewhere in your program.  
-
-**call function**    
-
-Use a function by its name somewhere in a program.   
-
-![](https://i.imgur.com/6dB22J0.jpg)  
-
-In this experiment, we have set three variables: r、g 、b, which is used to record brightness value of red light, green light, and blue light separately. At the initial status, only red light will be illuminated.   
-
-![](https://i.imgur.com/tWiLbVy.jpg)  
-
-Then we have to create 3 functions to realize gradual change among the three colors.  
-For example, “RtoG” function is for realizing transformation of red light and green light. If we implement the circulation of the function for once, then P0 analog input “-1”( red light brightness decreased a little bit) 
-, and P1 analog input “+1” ( green light brightness increased a little bit). After implement circulation for 1023 times, P0 analog input become “0” (red light turned off), and P1 analog input becomes “1023”(green light illuminated). Finally, it has realized gradual change smoothly.  
-
-![](https://i.imgur.com/DFZWDN5.jpg)  
-
-Circulate the three functions to realize color gradual change smoothly.  
-
-
-## Experiment Result        
----  
-
-Press button A, LED turns red.   
-Press button B, LED turns green.   
-Press button A+B, LED turns blue.  
-
-
-## Think    
+<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_Th3Vum76F4Tr" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
 ---
 
-If we want to use RGB LED to emit cyan light, magenta light, yellow light, then how to design circuit and program? We look forward to your comments or further discussions with us. 
-
-
-## Relative Readings  
+## Result
 ---
+Press button A, LED turns red. 
+Press button B, LED turns green. 
+Press button A+B, LED turns blue.
 
-- [Micro_bit_Starter_Kit_Lesson_01_LED](/Micro_bit_Starter_Kit_Lesson_01_LED/)  
-- [Micro_bit_Starter_Kit_Lesson_02_Button](/Micro_bit_Starter_Kit_Lesson_02_Button/)  
-- [Micro_bit_Starter_Kit_Lesson_03_Trimpot](/Micro_bit_Starter_Kit_Lesson_03_Trimpot/)  
-- [Micro_bit_Starter_Kit_Lesson_04_Photocell](/Micro_bit_Starter_Kit_Lesson_04_Photocell/)  
-- [Micro_bit_Starter_Kit_Lesson_05_RGB_LED](/Micro_bit_Starter_Kit_Lesson_05_RGB_LED/)  
-- [Micro_bit_Starter_Kit_Lesson_06_Self_lock_Switch](/Micro_bit_Starter_Kit_Lesson_06_Self_lock_Switch/)  
-- [Micro_bit_Starter_Kit_Lesson_07_Temperature_Sensor](/Micro_bit_Starter_Kit_Lesson_07_Temperature_Sensor/)  
-- [Micro_bit_Starter_Kit_Lesson_08_Servo](/Micro_bit_Starter_Kit_Lesson_08_Servo/)  
-- [Micro_bit_Starter_Kit_Lesson_09_Buzzer](/Micro_bit_Starter_Kit_Lesson_09_Buzzer/)  
-- [Micro_bit_Starter_Kit_Lesson_10_Motor](Micro_bit_Starter_Kit_Lesson_10_Motor)  
-- [Micro_bit_Starter_Kit_Lesson_11_Rainbow_LED](/Micro_bit_Starter_Kit_Lesson_11_Rainbow_LED/)  
-- [Micro_bit_Starter_Kit_Lesson_12_Accelerometer](/Micro_bit_Starter_Kit_Lesson_12_Accelerometer/)  
-- [Micro_bit_Starter_Kit_Lesson_13_Compass](/Micro_bit_Starter_Kit_Lesson_13_Compass/)  
-- [Micro_bit_Starter_Kit_Lesson_14_Ambient_Light](/Micro_bit_Starter_Kit_Lesson_14_Ambient_Light/)  
+![](https://i.imgur.com/fDTbmRK.gif)
 
 
-## FAQ  
----  
+## Exploration
+---
+If we want to use RGB LED to emit cyan light, magenta light, yellow light, then how to design circuit and program? 
 
-   
-
+## FAQ
+---
