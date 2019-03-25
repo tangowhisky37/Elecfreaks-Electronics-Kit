@@ -36,45 +36,64 @@
  ![](https://i.imgur.com/oMYvA7j.png)
 
 ## Quick to Start
+
 ---
-### Hardware Connection  
+### Hardware Connection 
+
 ---
 
 - First, insert this module to the baseboard of the Ring:bit car V2.
 
  ![](https://i.imgur.com/W74Qmw5.gif)
 
-- Then, screw up the screws
+- Then, screw up the screws.
 
  ![](https://i.imgur.com/DdDtrst.gif) ![](https://i.imgur.com/rmNWX7j.gif)
 
-- Completed
+- Completed.
 
  ![](https://i.imgur.com/SkGJN5h.jpg)
 
-### 软件编程  
+- You have to turn the switch to the side named "Rainbow LED" if you want to use the Rainbow function.
+
+ ![](https://i.imgur.com/CfGTC9t.jpg)
+
+### Software Programming
 ---
 
 - Program a simple light-bar code in the [makecode](https://makecode.microbit.org/) .
-- Set and initialize “strip” variable, connect LED from P0-P10.
-- Set LED to show rainbow color.
-- Move the color one by one in forever loop.
-- Show colors.
 
- ![](https://i.imgur.com/BokHpFU.png)
+ ![](https://i.imgur.com/zqBmuEN.png)
 
-Links for this code：[https://makecode.microbit.org/_Eyc3eCLLj2YF](https://makecode.microbit.org/_Eyc3eCLLj2YF)
+- Choose `NeoPixel at pin……` from the Neopixel brick to the "On Start" brick.
+- Save the data collected by the 10pcs Rainbow LEDs connected to P2 port to `all_led` variable.
 
-You can also download the code directly below:
+ ![](https://i.imgur.com/P8dTKHu.png)
 
- <div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_Eyc3eCLLj2YF" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>
+- Set the variable `Single` to the first LED from `choice` for all LEDs `all_led` in `forever` block.
+- Add one for the variable `choice` in turns and choose the 10  LEDs in turns also.
+
+ ![](https://i.imgur.com/vU8l2P2.png)
+
+- When the variable `choice` is over 9, it means there is only one LED left can be chosen, now set the variable `choice` to 0, then it loops.
+
+ ![](https://i.imgur.com/2jda8fX.png)
+
+- Set the `single` LED to `red` , and turn off the LED after 200 ms.
+
+ ![](https://i.imgur.com/qbAvPFJ.png)
+
+ Links: [https://makecode.microbit.org/_cg0JCtE5HHET](https://makecode.microbit.org/_cg0JCtE5HHET)
+
+You can download it directly below:
+
+ <div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_cg0JCtE5HHET" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>
 
 ### Result
 ---
-- Rainbow lights
+- Turn on the Rainbow LED in turns.
 
- ![](https://i.imgur.com/tb3xtb6.gif)
- ![](https://i.imgur.com/tqwSQ3y.gif)
+ ![](https://i.imgur.com/RuCcyiq.gif)
 
 ## Files
 ---
