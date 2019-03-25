@@ -47,23 +47,35 @@
 - Extension is completed.
 
  ![](https://i.imgur.com/BcVzgia.jpg)
+- You have to turn the switch to the side named `other modules` on the baseboard if you want to use other functions except for the Rainbow LED.
+
+ ![](https://i.imgur.com/jrWzkFJ.jpg)
 
 ### Software Programming  
 ---
 
-
-
 - Program a simple line-following code in the [makecode](https://makecode.microbit.org/) .
+
+ ![](https://i.imgur.com/qxE2Vto.png)
+
 - The equivalent connection port for the left and right wheels is P1 and P2 when on start.
+- Then the car would go forward in the speed of 100.
+
+ ![](https://i.imgur.com/52DzbGf.png)
+
 - When the left detection probe deviates from the black line, the right wheel would stop moving and the left wheel would adjust to go back to the black line in the speed of 50.
+
+ ![](https://i.imgur.com/5J1Vx9h.png)
+
 - The right detection probe would work the same as the way of the left detection probe works.
+
+ ![](https://i.imgur.com/SVUxLr8.png)
+
 - When both of the detection probes detects the black line, the car would go forward in the speed of 100.
 
- ![](https://i.imgur.com/gZ0qhYI.png)
+ ![](https://i.imgur.com/CcO2RN6.png)
 
-
-
-Links for the code: [https://makecode.microbit.org/_Jh2RVDMRwDz1](https://makecode.microbit.org/_Jh2RVDMRwDz1)
+ Links:[https://makecode.microbit.org/_Jh2RVDMRwDz1](https://makecode.microbit.org/_Jh2RVDMRwDz1)
 
 You can also download the code directly below:
 
@@ -71,9 +83,7 @@ You can also download the code directly below:
 
 ### Result
 ---
-
-
-- It can run around the circle slowly.
+- The Ring:bit car runs around the circle slowly.
 
  ![](https://i.imgur.com/B3YyUIc.gif)
 
