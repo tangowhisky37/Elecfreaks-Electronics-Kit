@@ -33,11 +33,19 @@ The ELECFREAKS Ring:bit Car is a small DIY smart car driven by the BBC micro:bit
 
 
 ## Related Documents
-- [Ring:bit Car Assembly Step](//)
-- [Ring:bit 2 Introduction of Expansion Board](//)
-- [Ring:bit Introduction of E-blocks](//)
-- [Case_01 Full speed ahead](//)
-- [Case_02 Make a shape](//)
-- [Case_03 Turn at an angle](//)
-- [Case_04 Here comes the police](//)
-- [Case_05 Crazy dance](//)
+- [Ring:bit Car Assembly Step](/ring_bit_car_v2_assembly_step/)
+- [Ring:bit 2 Introduction of Expansion Board](/ring_bit_car_v2/)
+- [Ring:bit Introduction of E-blocks](/ring_bit_car_v2_extensions/)
+- [Ring:bit car V2 lights-bar module](/ring_bit_car_v2_Rainbow_LED_module/)
+- [Ring:bit car V2 line following module](/ring_bit_car_v2_line_flow_module/)
+- [Case_01 Full speed ahead](/ring_bit_car_case_01/)
+- [Case_02 Make a shape](/ring_bit_car_case_02/)
+- [Case_03 Turn at an angle](/ring_bit_car_case_03/)
+- [Case_04 Here comes the police](/ring_bit_car_case_04/)
+- [Case_05 Crazy dance](/ring_bit_car_case_05/)
+- [Case_06 Wireless control](/ring_bit_car_case_06/)
+- [Case_07 Turns over](/ring_bit_car_case_07/)
+- [Case_08 Light follow](/ring_bit_car_case_08/)
+- [Case_09 accelerometer remote control](/ring_bit_car_case_09/)
+- [Case_10 Bluetooth control](/ring_bit_car_case_10/)
+
