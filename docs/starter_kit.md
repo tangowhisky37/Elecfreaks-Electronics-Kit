@@ -10,7 +10,7 @@ Micro:bit Starter kit can help you enter a wonderful of electronic world.
 ---
 ![](https://i.imgur.com/NJPB9qt.jpg)
 
-## Relative Readings:
+## Tutorials:
 ---
 - [Breadboard:bit](/KidzCanCode-Tutorials-I/docs/breadboard_bit)
 - [Lesson_01：LED](/KidzCanCode-Tutorials-I/docs/starter_kit_case_01)
