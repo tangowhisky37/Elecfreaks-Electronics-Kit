@@ -18,24 +18,23 @@ For more practical case, please refer to the materials.
 ## Components
 ---
 Module | Quantity | Remark
-:-: | :-: | :-: 
-micro:bit|1|Option
-3V sensor:bit|1|-
-OLED Screen|1|-
-Crash E-Blocks|1|-
-TMP36 temperature sensor E-Blocks|1|-
-Rainbow LED E-Blocks|1|-
-Simulation noise sensor E-Blocks|1|-
-Light sensor E-Blocks|1|-
-Soil moisture sensor E-Blocks|1|-
-Relay E-Blocks|1|-
-DC motor E-Blocks|1|-
-180° servo E-Blocks|1|-
-Submersible pump E-Blocks|1|-
-Screw driver|1|-
-USB Cable|1|-
-Crystal Battery Box	|1|-
-Smart home kit manual book|1|-
+
+* 3V sensor:bit x 1
+* OLED Screen x 1
+* Crash E-Block x 1
+* TMP36 temperature sensor E-Blocks x 1
+* Rainbow LED E-Blocks x 1
+* Simulation noise sensor E-Blocks x 1
+* Light sensor E-Blocks x 1
+* Soil moisture sensor E-Blocks x 1
+* Relay E-Blocks x 1
+* DC motor E-Blocks x 1
+* 180° servo E-Blocks x 1
+* Submersible pump E-Blocks x 1
+* Screw driver x 1
+* USB Cable x 1
+* Crystal Battery Box	 x 1
+* Smart home kit manual book x 1
 
 ## Documents
 ---
