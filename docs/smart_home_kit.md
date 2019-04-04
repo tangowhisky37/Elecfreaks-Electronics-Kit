@@ -29,7 +29,7 @@ Module x Quantity
 ## Tutorials
 ---
 - [Sensor:bit for BBC micro:bit](/KidzCanCode-Tutorials-I/docs/Sensor_bit)
-- [Tutorial 1：Voice-activatied light](/KidzCanCode-Tutorials-I/docs/smart_home_case_01)
+- [Tutorial 1：Voice-activated light](/KidzCanCode-Tutorials-I/docs/smart_home_case_01)
 - [Tutorial 2：Smart fan](/KidzCanCode-Tutorials-I/docs/smart_home_case_02)  
 - [Tutorial 3：Auto windows](/KidzCanCode-Tutorials-I/docs/smart_home_case_03)  
 - [Tutorial 4：Auto wardrobe](/KidzCanCode-Tutorials-I/docs/smart_home_case_04) 
