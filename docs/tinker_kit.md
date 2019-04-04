@@ -1,6 +1,8 @@
 ## Tinker Kit Introduction
 
-ElecFreaks Micro:bit Tinker Kit is a set of Micro:bit accessory that enables you to connect all kinds of modules easily without a group of messy breadboard wires.
+EThe Elecfreaks tinker kit for BBC micro:it comes packed with ~10 easy to use sensors (PIR sensor, soil moisture sensor, crash sensor, etc.) and includes the Electrofreaks Octopus micro:bit breakout board. The Electrofreaks Octopus micro:bit breakout board is specially designed for use with the Electrofreaks Octopus sensors and makes it really easy to interface with the different electronic bits i.e. sensors, etc. included in the starter kit. 
+
+The tinker kit for the BBC micro:bit offers a great opportunity to explore the world of electronics using the BBC micro:bit. Interact with the real world through the various sensors,  create innovative projects, learn how to program the micro:bit to read data from the sensors and perform certain actions. The starter kit for the BBC micro:bit is a great way to dive into the awesome world of electronics and get started with your own STEM (Science, Technology, Engineering, Math) learning journey.
 
 ![](https://www.oztoylib.com.au/wp-content/uploads/2018/11/elecfreaks_microbit_tinker_kit_4.jpg)
 
