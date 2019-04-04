@@ -28,18 +28,18 @@ Module x Quantity
 
 ## Tutorials
 ---
-- [sensor:bit](/KidzCanCode-Tutorials-I/docs/Sensor_bit/)
-- [Tutorial 1：Voice-activatied light](/KidzCanCode-Tutorials-I/docs/smart_home_case_01/)
-- [Tutorial 2：Smart fan](/KidzCanCode-Tutorials-I/docs/smart_home_case_02/)  
-- [Tutorial 3：Auto windows](/KidzCanCode-Tutorials-I/docs/smart_home_case_03/)  
-- [Tutorial 4：Auto wardrobe](/KidzCanCode-Tutorials-I/docs/smart_home_case_04/) 
-- [Tutorial 5：Water level detector](/KidzCanCode-Tutorials-I/docs/smart_home_case_05/) 
-- [Tutorial 6：Smart telecontrol door opener](/KidzCanCode-Tutorials-I/docs/smart_home_case_06/)
-- [Tutorial 7：Smart decibel tester](/KidzCanCode-Tutorials-I/docs/smart_home_case_07/)
-- [Tutorial 8：Simple Spirometer](/KidzCanCode-Tutorials-I/docs/smart_home_case_08/)
-- [Tutorial 9：Lie Detector](/KidzCanCode-Tutorials-I/docs/smart_home_case_09/)
-- [Tutorial 10：Simple Alarm Box](/KidzCanCode-Tutorials-I/docs/smart_home_case_10/)
-- [Tutorial 11：Intruder Detection System](/KidzCanCode-Tutorials-I/docs/smart_home_case_11/)
+- [sensor:bit](/KidzCanCode-Tutorials-I/docs/Sensor_bit)
+- [Tutorial 1：Voice-activatied light](/KidzCanCode-Tutorials-I/docs/smart_home_case_01)
+- [Tutorial 2：Smart fan](/KidzCanCode-Tutorials-I/docs/smart_home_case_02)  
+- [Tutorial 3：Auto windows](/KidzCanCode-Tutorials-I/docs/smart_home_case_03)  
+- [Tutorial 4：Auto wardrobe](/KidzCanCode-Tutorials-I/docs/smart_home_case_04) 
+- [Tutorial 5：Water level detector](/KidzCanCode-Tutorials-I/docs/smart_home_case_05) 
+- [Tutorial 6：Smart telecontrol door opener](/KidzCanCode-Tutorials-I/docs/smart_home_case_06)
+- [Tutorial 7：Smart decibel tester](/KidzCanCode-Tutorials-I/docs/smart_home_case_07)
+- [Tutorial 8：Simple Spirometer](/KidzCanCode-Tutorials-I/docs/smart_home_case_08)
+- [Tutorial 9：Lie Detector](/KidzCanCode-Tutorials-I/docs/smart_home_case_09)
+- [Tutorial 10：Simple Alarm Box](/KidzCanCode-Tutorials-I/docs/smart_home_case_10)
+- [Tutorial 11：Intruder Detection System](/KidzCanCode-Tutorials-I/docs/smart_home_case_11)
 
 ## Application Scene   
 ---
