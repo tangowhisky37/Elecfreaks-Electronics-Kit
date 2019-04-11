@@ -24,8 +24,8 @@ You can gather data via thesensors and send data to the cloud with more stable a
 
 ## relative documents
 - [IoT:bit ](/iot_bit/)
-- [Case01:air quality monitoring:](/IOT_bit_case01/)
-- [Case02:environmental noise detection:](/IOT_bit_case02/)
-- [Case03:environmental quality monitoring station:](/IOT_bit_case03/)
-- [Case04:automatic irrigation detection:](/IOT_bit_case04/)
-- [Case05:self defense monitoring station:](/IOT_bit_case05/)
+- [Case01:air quality monitoring:](/KidzCanCode-Tutorials-I/docs/IOT_bit_case01/)
+- [Case02:environmental noise detection:](/KidzCanCode-Tutorials-I/docs/IOT_bit_case02/)
+- [Case03:environmental quality monitoring station:](/KidzCanCode-Tutorials-I/docs/IOT_bit_case03/)
+- [Case04:automatic irrigation detection:](/KidzCanCode-Tutorials-I/docs/IOT_bit_case04/)
+- [Case05:self defense monitoring station:](/KidzCanCode-Tutorials-I/docs/IOT_bit_case05/)
