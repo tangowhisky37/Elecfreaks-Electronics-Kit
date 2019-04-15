@@ -2,9 +2,8 @@
 ## micro:bit Smart Science IoT kit
 ---
 
-ELECFREAKS Smart Science IoT Kit is developed based on loT:Bit,a new breakout board compatible with science sensors such as theultrasonic sensor, dust sensor, light sensor and water level sensor,.including RTC Timing and WIFI module. 
-You can gather data via thesensors and send data to the cloud with more stable and accuratedata analysis.
-## pack list ##
+ELECFREAKS Smart Science IoT Kit is based on the IoT:Bit electronics board,a new breakout board compatible with different sensors such as the ultrasonic sensor, dust sensor, light sensor, water level sensor, noise sensor, including RTC Timing and WIFI module. The big advantage of the IoT:Bit board is that it houses an ESP8266 chip which allows you to connect up the micro:bit to the internet using a Wifi connection. This allows you to interact with the real world using sensors (connected to the micro:bit), gather data and then upload the collected data to the cloud. With the data uploaded to the cloud you can visualize the data, perform trending and even complicated analytical modelling or forecasting. 
+## What's In the box ##
 ---
 
 |Component|number|
