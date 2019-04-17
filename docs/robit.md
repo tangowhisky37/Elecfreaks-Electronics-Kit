@@ -176,15 +176,15 @@ Also, you can download the code directly from the page below:
 We can see our robit car moves forward for 3 seconds, and then backward 3 seconds. This round trip movement is repeated forever.  
 
 
-## Document  
+## Tutorials
 ---
-- [Case_01 Ultrasonic Distance Measurement](/robit_case_01.md/)
-- [Case_02 Ultrasonic Obstacle Avoidance](/robit_case_02.md/)
-- [Case_03 Never Fallen Car](/robit_case_03.md/)
-- [Case_04 Line Tracking](/robit_case_04.md/)
-- [Case_05 Reversing Alarm](/robit_case_05.md/)
-- [Case_06 Rainbow LED](/robit_case_06.md/)
-- [Case_07 Smart Car Light](/robit_case_07.md/)
+- [Case_01 Ultrasonic Distance Measurement](/KidzCanCode-Tutorials-I/docs/robit_case_01)
+- [Case_02 Ultrasonic Obstacle Avoidance](/KidzCanCode-Tutorials-I/robit_case_02)
+- [Case_03 Never Fallen Car](/KidzCanCode-Tutorials-I/docs/robit_case_03)
+- [Case_04 Line Tracking](/KidzCanCode-Tutorials-I/docs/robit_case_04)
+- [Case_05 Reversing Alarm](/KidzCanCode-Tutorials-I/docs/robit_case_05)
+- [Case_06 Rainbow LED](/KidzCanCode-Tutorials-I/docs/robit_case_06)
+- [Case_07 Smart Car Light](/KidzCanCode-Tutorials-I/docs/robit_case_07)
 
 
 ## FAQ
