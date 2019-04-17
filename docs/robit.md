@@ -179,7 +179,7 @@ We can see our robit car moves forward for 3 seconds, and then backward 3 second
 ## Tutorials
 ---
 - [Case_01 Ultrasonic Distance Measurement](/KidzCanCode-Tutorials-I/docs/robit_case_01)
-- [Case_02 Ultrasonic Obstacle Avoidance](/KidzCanCode-Tutorials-I/robit_case_02)
+- [Case_02 Ultrasonic Obstacle Avoidance](/KidzCanCode-Tutorials-I/docs/robit_case_02)
 - [Case_03 Never Fallen Car](/KidzCanCode-Tutorials-I/docs/robit_case_03)
 - [Case_04 Line Tracking](/KidzCanCode-Tutorials-I/docs/robit_case_04)
 - [Case_05 Reversing Alarm](/KidzCanCode-Tutorials-I/docs/robit_case_05)
