@@ -1,6 +1,8 @@
 ## Introduction  
 ---
-Robit smart car is a kind of smart car which is based on micro:bit and ElecFreaks robit. Besides the RJ25 wiring port and  motor port in Mbot, the robit is also equipped with  2-way DC motor connectors , 2-way stepping motor connectors(Stepping motor connectors and 4-way DC motor connectors are multiplexed ) and 8-way PWM signal output connectors.  It can drive PWM signal driving devices like servo. It has 8-way G-5V-S digital signal connectors(for connecting with OCTOPUS electric bricks) and 4-way G-5V-S analog signal connectors(for connecting with OCTOPUS electric bricks). Robit can realize all current basic functions of MBOT and it can be regarded as the new generation of Mbot.
+Robit smart car is a STEM education robot based on the BBC micro:bit and ElecFreaks robit robotics platform. Besides the RJ25 wiring port and  motor port in Mbot, the robit is also equipped with  2-way DC motor connectors , 2-way stepping motor connectors(Stepping motor connectors and 4-way DC motor connectors are multiplexed ) and 8-way PWM signal output connectors.  
+
+The robit board can drive PWM signal driving devices like servo. It has 8-way G-5V-S digital signal connectors(for connecting with OCTOPUS electric bricks) and 4-way G-5V-S analog signal connectors(for connecting with OCTOPUS electric bricks). Robit can realize all current basic functions of MBOT and it can be regarded as the new generation of Mbot.
 
 
 ### Characteristics
@@ -14,30 +16,26 @@ Robit smart car is a kind of smart car which is based on micro:bit and ElecFreak
 
 ###  Technical Parameter
 ---
-Item |Parameter 
-:-:|:-:
-Name|Robit Smart Car
-SKU|EF08195
-Version|V1.0
-Motor Type|TT Motor
-Wheels Number|2 
-Line-following|Support
-Sonar|Support
-Power Source|Lithium battery
-Net Weight|426g
-Dimension of Finished Products|170mm X 128mm X 98mm
+- Robit Smart Car
+- SKU|EF08195
+- Version : V1.0
+- Motor Type : TT Motor
+- Wheels Number x 2 
+- Line-following Support : Yes
+- Sonar Support : Yes
+- Power Source : Lithium battery
+- Net Weight : 426g
+- Dimension of Finished Products : 170mm X 128mm X 98mm
 
 ## Lists of Components
 ---
-Item |Quantity |Remark
-:-:|:-:|:-:
-Chassis|1|-
-Robit|1|-
-Sonar bit|1|-
-Dual Line-following Modules|1|-
-TT Motor|2|-
-Battery|1|-
-Screws Package|1|-
+- Chassis x 1
+- Robit board x 1
+- Sonar bit  x 1
+- Dual Line-following Modules  x 1
+- TT Motor x 2
+- Battery x 1
+- Screws Package x 1
 
 ## Diagram for Installment of Chassis
 ---
