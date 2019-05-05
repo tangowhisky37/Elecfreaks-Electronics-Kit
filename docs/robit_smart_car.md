@@ -17,7 +17,7 @@ The robit board can drive PWM signal driving devices like servo. It has 8-way G-
 ###  Technical Parameter
 ---
 - Robit Smart Car
-- SKU|EF08195
+- SKU : EF08195
 - Version : V1.0
 - Motor Type : TT Motor
 - Wheels Number x 2 
