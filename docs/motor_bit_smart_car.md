@@ -53,11 +53,11 @@ Size of Finished Product|146mm x 124mm x 71mm
 ---
 - [Motor:bit Introduction](/KidzCanCode-Tutorials-I/docs/motor_bit_v14) 
 - [Case 01 Fixed Parking](/KidzCanCode-Tutorials-I/docs/motor_bit_smart_car_case_01) 
-- [Case 02 Keep Distance](/KidzCanCode-Tutorials-I/docs/motor_bit_smart_car_case_02/) 
-- [Case 03 Line Tracking](/KidzCanCode-Tutorials-I/docs/motor_bit_smart_car_case_03/) 
-- [Case 04 Avoid Barrier](/KidzCanCode-Tutorials-I/docs/motor_bit_smart_car_case_04/) 
-- [Case 05 Remote Control](/KidzCanCode-Tutorials-I/docs/motor_bit_smart_car_case_05/) 
-- [Case 06 Bluetooth Control](/KidzCanCode-Tutorials-I/docs/motor_bit_smart_car_case_06/) 
+- [Case 02 Keep Distance](/KidzCanCode-Tutorials-I/docs/motor_bit_smart_car_case_02) 
+- [Case 03 Line Tracking](/KidzCanCode-Tutorials-I/docs/motor_bit_smart_car_case_03) 
+- [Case 04 Avoid Barrier](/KidzCanCode-Tutorials-I/docs/motor_bit_smart_car_case_04) 
+- [Case 05 Remote Control](/KidzCanCode-Tutorials-I/docs/motor_bit_smart_car_case_05) 
+- [Case 06 Bluetooth Control](/KidzCanCode-Tutorials-I/docs/motor_bit_smart_car_case_06) 
 
 
 ## FAQ  
